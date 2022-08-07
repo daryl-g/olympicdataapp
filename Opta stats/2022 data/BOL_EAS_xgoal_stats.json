@@ -1,0 +1,5096 @@
+{
+  "matchInfo": {
+    "id": "6sjcf22at6r9zpvp1omyrj5lg",
+    "coverageLevel": "12",
+    "date": "2022-04-27Z",
+    "time": "09:30:00Z",
+    "week": "1",
+    "numberOfPeriods": 2,
+    "periodLength": 45,
+    "lastUpdated": "2022-06-23T13:47:09Z",
+    "description": "Olympic vs Eastern Suburbs",
+    "sport": {
+      "id": "289u5typ3vp4ifwh5thalohmq",
+      "name": "Soccer"
+    },
+    "ruleset": {
+      "id": "79plas4983031idr6vw83nuel",
+      "name": "Men"
+    },
+    "competition": {
+      "id": "61fzfjogstjuukzcehighq7mu",
+      "name": "Queensland NPL",
+      "competitionCode": "QLD",
+      "competitionFormat": "Domestic league",
+      "country": {
+        "id": "u5ieemi69z72c3bgczyy68lo",
+        "name": "Australia"
+      }
+    },
+    "tournamentCalendar": {
+      "id": "bgpaje6tbd5kz086jihlxcnbo",
+      "startDate": "2022-03-19Z",
+      "endDate": "2022-09-09Z",
+      "name": "2022"
+    },
+    "stage": {
+      "id": "bgwxnv3jvkjmgxwy00gkeihas",
+      "formatId": "e2q01r9o9jwiq1fls93d1sslx",
+      "startDate": "2022-03-19Z",
+      "endDate": "2022-08-27Z",
+      "name": "Regular Season"
+    },
+    "contestant": [
+      {
+        "id": "2aofpfcn4ads3zzip4q9n6udy",
+        "name": "Olympic",
+        "shortName": "Olympic",
+        "officialName": "Brisbane Olympic FC",
+        "code": "BOL",
+        "position": "home",
+        "country": {
+          "id": "u5ieemi69z72c3bgczyy68lo",
+          "name": "Australia"
+        }
+      },
+      {
+        "id": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "name": "Eastern Suburbs",
+        "shortName": "Eastern Sub",
+        "officialName": "Eastern Suburbs SC",
+        "code": "EAS",
+        "position": "away",
+        "country": {
+          "id": "u5ieemi69z72c3bgczyy68lo",
+          "name": "Australia"
+        }
+      }
+    ],
+    "venue": {
+      "id": "59e4rhvri6uesmu1s3p5ddigp",
+      "neutral": "no",
+      "longName": "Goodwin Park",
+      "shortName": "Goodwin Park"
+    }
+  },
+  "liveData": {
+    "matchDetails": {
+      "periodId": 14,
+      "matchStatus": "Played",
+      "winner": "draw",
+      "scores": {
+        "ht": {
+          "home": 1,
+          "away": 1
+        },
+        "ft": {
+          "home": 1,
+          "away": 1
+        },
+        "total": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    },
+    "lineUp": [
+      {
+        "player": [
+          {
+            "playerId": "ihv6tr8wkwvgqa7l7tclxvfu",
+            "firstName": "Lachlan",
+            "lastName": "Hunter",
+            "matchName": "L. Hunter",
+            "shirtNumber": 1,
+            "position": "Goalkeeper",
+            "positionSide": "Centre",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "touches",
+                "value": "31"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00013878"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "1.8E-7"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00013843"
+              }
+            ]
+          },
+          {
+            "playerId": "c48ndu8h2ald5oi1tv6ttnn6c",
+            "firstName": "Taira",
+            "lastName": "Yoshimura",
+            "matchName": "T. Yoshimura",
+            "shirtNumber": 41,
+            "position": "Defender",
+            "positionSide": "Left",
+            "stat": [
+              {
+                "type": "attLfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attMissLeft",
+                "value": "1"
+              },
+              {
+                "type": "attOboxMiss",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "84"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "73"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.0198"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.0198"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.0198"
+              },
+              {
+                "type": "expectedGoalsLf",
+                "value": "0.0198"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8516"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8516"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2239"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2239"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0124119"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00033867"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0120732"
+              }
+            ]
+          },
+          {
+            "playerId": "3ubfxf6nm96nn48nlq2ek66i2",
+            "firstName": "Daniel",
+            "lastName": "Driver",
+            "shortFirstName": "Daniel",
+            "shortLastName": "Driver",
+            "matchName": "D. Driver",
+            "shirtNumber": 17,
+            "position": "Defender",
+            "positionSide": "Left/Centre",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "offtargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "ontargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "2"
+              },
+              {
+                "type": "touches",
+                "value": "67"
+              },
+              {
+                "type": "attAssistOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "attAssistSetplay",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.212825"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.197552"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0152732"
+              }
+            ]
+          },
+          {
+            "playerId": "65nwq5zvyruwcq9fxxikq647p",
+            "firstName": "Matthew Benjamin",
+            "lastName": "Mundy",
+            "shortFirstName": "Matthew",
+            "shortLastName": "Mundy",
+            "matchName": "M. Mundy",
+            "shirtNumber": 6,
+            "position": "Defender",
+            "positionSide": "Centre/Right",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "touches",
+                "value": "77"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0087898"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "2.113E-5"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00876867"
+              }
+            ]
+          },
+          {
+            "playerId": "7kf90vnglxqgunpb89tdy14dm",
+            "firstName": "Shelford",
+            "lastName": "Dais",
+            "shortFirstName": "Shelford",
+            "shortLastName": "Dais",
+            "matchName": "S. Dais",
+            "shirtNumber": 2,
+            "position": "Defender",
+            "positionSide": "Right",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "offtargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "ontargetAttAssist",
+                "value": "2"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "3"
+              },
+              {
+                "type": "touches",
+                "value": "92"
+              },
+              {
+                "type": "attAssistOpenplay",
+                "value": "3"
+              },
+              {
+                "type": "bigChanceCreated",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "5"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.212107"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.0008894"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.211218"
+              }
+            ]
+          },
+          {
+            "playerId": "7pi9ljq9afsc4rtdektzdvap5",
+            "firstName": "Steve",
+            "lastName": "Whyte",
+            "shortFirstName": "Steve",
+            "shortLastName": "Whyte",
+            "matchName": "S. Whyte",
+            "shirtNumber": 10,
+            "position": "Defensive Midfielder",
+            "positionSide": "Left/Centre",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "touches",
+                "value": "99"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0502856"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00047931"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0498061"
+              }
+            ]
+          },
+          {
+            "playerId": "itlhrj2nxt3yw9cmp5pmbgiy",
+            "firstName": "Lachlan",
+            "lastName": "Sayers",
+            "matchName": "L. Sayers",
+            "shirtNumber": 18,
+            "position": "Defensive Midfielder",
+            "positionSide": "Centre/Right",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "touches",
+                "value": "74"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0373943"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00253218"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0348625"
+              }
+            ]
+          },
+          {
+            "playerId": "4rdu42c7anl36tvnjnj65vt62",
+            "firstName": "Danilo",
+            "lastName": "Kovacevic",
+            "shortFirstName": "Danilo",
+            "shortLastName": "Kovacevic",
+            "matchName": "D. Kovacevic",
+            "shirtNumber": 26,
+            "position": "Attacking Midfielder",
+            "positionSide": "Left",
+            "stat": [
+              {
+                "type": "attIboxTarget",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "attRfTarget",
+                "value": "1"
+              },
+              {
+                "type": "attRfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attSvLowLeft",
+                "value": "1"
+              },
+              {
+                "type": "goalAssist",
+                "value": "1"
+              },
+              {
+                "type": "goalAssistIntentional",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "45"
+              },
+              {
+                "type": "ontargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "27"
+              },
+              {
+                "type": "goalAssistOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "bigChanceCreated",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "5"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.0466"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.0466"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.0466"
+              },
+              {
+                "type": "expectedGoalsRf",
+                "value": "0.0466"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.581"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.581"
+              },
+              {
+                "type": "expectedGoalsontarget",
+                "value": "0.1291"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenalty",
+                "value": "0.1291"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.1552"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.1552"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.270915"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.270915"
+              }
+            ]
+          },
+          {
+            "playerId": "8b2fxtj3y91wxahq2a8pv8iga",
+            "firstName": "Daniel",
+            "lastName": "Leck",
+            "matchName": "D. Leck",
+            "shirtNumber": 7,
+            "position": "Attacking Midfielder",
+            "positionSide": "Centre",
+            "stat": [
+              {
+                "type": "attBxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attIboxMiss",
+                "value": "1"
+              },
+              {
+                "type": "attLfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attMissLeft",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "83"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "82"
+              },
+              {
+                "type": "bigChanceMissed",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "2"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.3066"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.3066"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.3066"
+              },
+              {
+                "type": "expectedGoalsLf",
+                "value": "0.3066"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8516"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8516"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2239"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2239"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0834678"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00037951"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.083088"
+              }
+            ]
+          },
+          {
+            "playerId": "4wk0sw7u4c17v2owhx5bhmusq",
+            "firstName": "Keegan Daniel",
+            "lastName": "Jelacic",
+            "shortFirstName": "Keegan",
+            "shortLastName": "Jelacic",
+            "matchName": "K. Jelacic",
+            "shirtNumber": 8,
+            "position": "Attacking Midfielder",
+            "positionSide": "Right",
+            "stat": [
+              {
+                "type": "attObxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attIboxTarget",
+                "value": "1"
+              },
+              {
+                "type": "attLfTarget",
+                "value": "1"
+              },
+              {
+                "type": "attLfTotal",
+                "value": "2"
+              },
+              {
+                "type": "attOboxBlocked",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "2"
+              },
+              {
+                "type": "attSvLowLeft",
+                "value": "1"
+              },
+              {
+                "type": "blockedScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "offtargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "touches",
+                "value": "83"
+              },
+              {
+                "type": "attAssistOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "5"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.091"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.091"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.091"
+              },
+              {
+                "type": "expectedGoalsLf",
+                "value": "0.091"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8875"
+              },
+              {
+                "type": "expectedGoalsontarget",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenalty",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.2464"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.264921"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00133077"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.263591"
+              }
+            ]
+          },
+          {
+            "playerId": "1u24lhypjueit6805oeoej9qs",
+            "firstName": "Zachary",
+            "lastName": "Kierpal",
+            "matchName": "Z. Kierpal",
+            "shirtNumber": 9,
+            "position": "Striker",
+            "positionSide": "Centre",
+            "stat": [
+              {
+                "type": "attBxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attGoalLowCentre",
+                "value": "1"
+              },
+              {
+                "type": "attIboxGoal",
+                "value": "1"
+              },
+              {
+                "type": "attMissLeft",
+                "value": "1"
+              },
+              {
+                "type": "attOboxMiss",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "2"
+              },
+              {
+                "type": "attRfGoal",
+                "value": "1"
+              },
+              {
+                "type": "attRfTotal",
+                "value": "2"
+              },
+              {
+                "type": "goals",
+                "value": "1"
+              },
+              {
+                "type": "goalsOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "63"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "17"
+              },
+              {
+                "type": "bigChanceScored",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "4"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.472"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.472"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.472"
+              },
+              {
+                "type": "expectedGoalsRf",
+                "value": "0.472"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.7516"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.7516"
+              },
+              {
+                "type": "expectedGoalsontarget",
+                "value": "0.611"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenalty",
+                "value": "0.611"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "1.1807"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "1.1807"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0067919"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0067919"
+              }
+            ]
+          },
+          {
+            "playerId": "4sl9hpjqfecaz7ggrw82p65zp",
+            "firstName": "Shannon Jon",
+            "lastName": "Brady",
+            "matchName": "S. Brady",
+            "shirtNumber": 14,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "6"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "14"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.0359"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.0359"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0225"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0225"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00145324"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "8.823E-5"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00136501"
+              }
+            ]
+          },
+          {
+            "playerId": "a4vv5gmmrx84b3c1sdvy8yiju",
+            "firstName": "James",
+            "lastName": "Cuminao",
+            "shortFirstName": "James",
+            "shortLastName": "Cuminao",
+            "knownName": "James Cuminao",
+            "matchName": "J. Cuminao",
+            "shirtNumber": 22,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "attBxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attHdMiss",
+                "value": "1"
+              },
+              {
+                "type": "attHdTotal",
+                "value": "1"
+              },
+              {
+                "type": "attIboxMiss",
+                "value": "1"
+              },
+              {
+                "type": "attMissLeft",
+                "value": "1"
+              },
+              {
+                "type": "attSetpiece",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "45"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "36"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.1023"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.1023"
+              },
+              {
+                "type": "expectedGoalsSetplay",
+                "value": "0.1023"
+              },
+              {
+                "type": "expectedGoalsHd",
+                "value": "0.1023"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.3065"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.3065"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0912"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0912"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0046565"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0046565"
+              }
+            ]
+          },
+          {
+            "playerId": "aojens4o7va1a95g1go2fac16",
+            "firstName": "Brandon",
+            "lastName": "Cuminao",
+            "shortFirstName": "Brandon",
+            "shortLastName": "Cuminao",
+            "knownName": "Brandon Cuminao",
+            "matchName": "B. Cuminao",
+            "shirtNumber": 21,
+            "position": "Substitute",
+            "stat": []
+          },
+          {
+            "playerId": "2htnnzwge9al4qlqu49xxxvfu",
+            "firstName": "Jayden",
+            "lastName": "Dee",
+            "shortFirstName": "Jayden",
+            "shortLastName": "Dee",
+            "matchName": "J. Dee",
+            "shirtNumber": 20,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "27"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "6"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "2"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.1359"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.1359"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0657"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0657"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00906567"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00906567"
+              }
+            ]
+          },
+          {
+            "playerId": "8dhqyz8abh6yvoadz46zbqhka",
+            "firstName": "Prasiddha",
+            "lastName": "Paudyal",
+            "shortFirstName": "Prasiddha",
+            "shortLastName": "Paudyal",
+            "matchName": "P. Paudyal",
+            "shirtNumber": 23,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "7"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "10"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.0359"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.0359"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0225"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0225"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0118358"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0118358"
+              }
+            ]
+          }
+        ],
+        "stat": [
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "attBxCentre",
+            "value": "3"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attObxCentre",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attGoalLowCentre",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attHdMiss",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attHdTotal",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attIboxGoal",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "1",
+            "type": "attIboxMiss",
+            "value": "2"
+          },
+          {
+            "fh": "1",
+            "sh": "1",
+            "type": "attIboxTarget",
+            "value": "2"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attLfTarget",
+            "value": "1"
+          },
+          {
+            "fh": "3",
+            "sh": "1",
+            "type": "attLfTotal",
+            "value": "4"
+          },
+          {
+            "fh": "2",
+            "sh": "2",
+            "type": "attMissLeft",
+            "value": "4"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attOboxBlocked",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "1",
+            "type": "attOboxMiss",
+            "value": "2"
+          },
+          {
+            "fh": "5",
+            "sh": "2",
+            "type": "attOpenplay",
+            "value": "7"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attRfGoal",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attRfTarget",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "attRfTotal",
+            "value": "3"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attSetpiece",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "1",
+            "type": "attSvLowLeft",
+            "value": "2"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "blockedScoringAtt",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "forwardGoals",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalAssist",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalAssistIntentional",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goals",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalsOpenplay",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "offtargetAttAssist",
+            "value": "3"
+          },
+          {
+            "fh": "3",
+            "sh": "1",
+            "type": "ontargetAttAssist",
+            "value": "4"
+          },
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "ontargetScoringAtt",
+            "value": "3"
+          },
+          {
+            "fh": "2",
+            "sh": "2",
+            "type": "shotOffTarget",
+            "value": "4"
+          },
+          {
+            "fh": "0",
+            "sh": "4",
+            "type": "subsMade",
+            "value": "4"
+          },
+          {
+            "fh": "5",
+            "sh": "2",
+            "type": "totalAttAssist",
+            "value": "7"
+          },
+          {
+            "fh": "5",
+            "sh": "3",
+            "type": "totalScoringAtt",
+            "value": "8"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "totalYellowCard",
+            "value": "1"
+          },
+          {
+            "fh": "434",
+            "sh": "354",
+            "type": "touches",
+            "value": "788"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalAssistOpenplay",
+            "value": "1"
+          },
+          {
+            "fh": "4",
+            "sh": "1",
+            "type": "attAssistOpenplay",
+            "value": "5"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attAssistSetplay",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "0",
+            "type": "bigChanceCreated",
+            "value": "2"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "bigChanceMissed",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "bigChanceScored",
+            "value": "1"
+          },
+          {
+            "fh": "14",
+            "sh": "12",
+            "type": "touchesInOppBox",
+            "value": "26"
+          },
+          {
+            "fh": "0.8439",
+            "sh": "0.1944",
+            "type": "expectedGoals",
+            "value": "1.0383"
+          },
+          {
+            "fh": "0.8439",
+            "sh": "0.1944",
+            "type": "expectedGoalsNonpenalty",
+            "value": "1.0383"
+          },
+          {
+            "fh": "0.8439",
+            "sh": "0.0921",
+            "type": "expectedGoalsOpenplay",
+            "value": "0.936"
+          },
+          {
+            "fh": "0",
+            "sh": "0.1023",
+            "type": "expectedGoalsSetplay",
+            "value": "0.1023"
+          },
+          {
+            "fh": "0",
+            "sh": "0.1023",
+            "type": "expectedGoalsHd",
+            "value": "0.1023"
+          },
+          {
+            "fh": "0.3585",
+            "sh": "0.0589",
+            "type": "expectedGoalsLf",
+            "value": "0.4174"
+          },
+          {
+            "fh": "0.4854",
+            "sh": "0.0332",
+            "type": "expectedGoalsRf",
+            "value": "0.5186"
+          },
+          {
+            "fh": "0.581",
+            "sh": "0.3065",
+            "type": "expectedGoalsConceded",
+            "value": "0.8875"
+          },
+          {
+            "fh": "0.581",
+            "sh": "0.3065",
+            "type": "expectedGoalsNonpenaltyConceded",
+            "value": "0.8875"
+          },
+          {
+            "fh": "0.7401",
+            "sh": "0.0966",
+            "type": "expectedGoalsontarget",
+            "value": "0.8367"
+          },
+          {
+            "fh": "0.7401",
+            "sh": "0.0966",
+            "type": "expectedGoalsontargetNonpenalty",
+            "value": "0.8367"
+          },
+          {
+            "fh": "1.1552",
+            "sh": "0.0912",
+            "type": "expectedGoalsontargetConceded",
+            "value": "1.2464"
+          },
+          {
+            "fh": "1.1552",
+            "sh": "0.0912",
+            "type": "expectedGoalsontargetNonpenaltyConceded",
+            "value": "1.2464"
+          },
+          {
+            "fh": "0.815751",
+            "sh": "0.371311",
+            "type": "expectedAssists",
+            "value": "1.18707"
+          },
+          {
+            "fh": "0.00530173",
+            "sh": "0.198311",
+            "type": "expectedAssistsSetplay",
+            "value": "0.203612"
+          },
+          {
+            "fh": "0.81045",
+            "sh": "0.173",
+            "type": "expectedAssistsOpenplay",
+            "value": "0.983449"
+          }
+        ],
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "teamOfficial": {
+          "id": "job510xyc883udhim8p1mdey",
+          "firstName": "Ben",
+          "lastName": "Cahn",
+          "type": "manager"
+        }
+      },
+      {
+        "player": [
+          {
+            "playerId": "5qodzqbmo69uh39qnicdwl638",
+            "firstName": "Connor",
+            "lastName": "Damsma",
+            "matchName": "C. Damsma",
+            "shirtNumber": 1,
+            "position": "Goalkeeper",
+            "positionSide": "Centre",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "touches",
+                "value": "25"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00015483"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00015483"
+              }
+            ]
+          },
+          {
+            "playerId": "9e0v7mudcp3u8lrff2rqbksx6",
+            "firstName": "Alexander",
+            "lastName": "Barnett",
+            "matchName": "A. Barnett",
+            "shirtNumber": 5,
+            "position": "Defender",
+            "positionSide": "Left/Centre",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "touches",
+                "value": "67"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00875062"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00875062"
+              }
+            ]
+          },
+          {
+            "playerId": "73hid8oc8vn87zz41biowfw89",
+            "firstName": "Hyung-Joon",
+            "lastName": "Son",
+            "matchName": "Son Hyung-Joon",
+            "shirtNumber": 8,
+            "position": "Defender",
+            "positionSide": "Centre",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "offtargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "ontargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "2"
+              },
+              {
+                "type": "touches",
+                "value": "51"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "attAssistOpenplay",
+                "value": "2"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0313448"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "6.924E-5"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0312756"
+              }
+            ]
+          },
+          {
+            "playerId": "v529c88p0u9yfw4san7a2wb8",
+            "firstName": "Lachlan",
+            "lastName": "Gorry",
+            "matchName": "L. Gorry",
+            "shirtNumber": 3,
+            "position": "Defender",
+            "positionSide": "Centre/Right",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "touches",
+                "value": "60"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0115956"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "2.39E-6"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0115932"
+              }
+            ]
+          },
+          {
+            "playerId": "3rdq5u53mx54zxfp6hxydafah",
+            "firstName": "Igor",
+            "lastName": "Oliveira de Sao Jose",
+            "matchName": "Igor",
+            "shirtNumber": 16,
+            "position": "Wing Back",
+            "positionSide": "Left",
+            "stat": [
+              {
+                "type": "attIboxTarget",
+                "value": "1"
+              },
+              {
+                "type": "attLfTarget",
+                "value": "1"
+              },
+              {
+                "type": "attLfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "attSvLowCentre",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "87"
+              },
+              {
+                "type": "ontargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "63"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "attAssistOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.0372"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.0372"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.0372"
+              },
+              {
+                "type": "expectedGoalsLf",
+                "value": "0.0372"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsontarget",
+                "value": "0.0191"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenalty",
+                "value": "0.0191"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0246462"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.0009501"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0236963"
+              }
+            ]
+          },
+          {
+            "playerId": "3fh6kdgniu5v7fxmkwk94s5ey",
+            "firstName": "Kai",
+            "lastName": "Fiechtner",
+            "matchName": "K. Fiechtner",
+            "shirtNumber": 18,
+            "position": "Wing Back",
+            "positionSide": "Right",
+            "stat": [
+              {
+                "type": "attBxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attHdMiss",
+                "value": "1"
+              },
+              {
+                "type": "attHdTotal",
+                "value": "1"
+              },
+              {
+                "type": "attIboxMiss",
+                "value": "1"
+              },
+              {
+                "type": "attMissHighLeft",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "offtargetAttAssist",
+                "value": "2"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "2"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "70"
+              },
+              {
+                "type": "attAssistOpenplay",
+                "value": "2"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "5"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.0454"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.0454"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.0454"
+              },
+              {
+                "type": "expectedGoalsHd",
+                "value": "0.0454"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.169289"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00112559"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.168164"
+              }
+            ]
+          },
+          {
+            "playerId": "298q92z2n7wit9e4bds7h4rqi",
+            "firstName": "Connor",
+            "lastName": "Booth",
+            "shortFirstName": "Connor",
+            "shortLastName": "Booth",
+            "matchName": "C. Booth",
+            "shirtNumber": 10,
+            "position": "Midfielder",
+            "positionSide": "Left/Centre",
+            "stat": [
+              {
+                "type": "attBxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attObxCentre",
+                "value": "2"
+              },
+              {
+                "type": "attIboxMiss",
+                "value": "1"
+              },
+              {
+                "type": "attLfTarget",
+                "value": "1"
+              },
+              {
+                "type": "attLfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attMissHigh",
+                "value": "1"
+              },
+              {
+                "type": "attOboxPost",
+                "value": "1"
+              },
+              {
+                "type": "attOboxTarget",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "3"
+              },
+              {
+                "type": "attPostHigh",
+                "value": "1"
+              },
+              {
+                "type": "attRfTotal",
+                "value": "2"
+              },
+              {
+                "type": "attSvHighCentre",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "postScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "secondGoalAssist",
+                "value": "1"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "2"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "3"
+              },
+              {
+                "type": "touches",
+                "value": "54"
+              },
+              {
+                "type": "hitWoodwork",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.1335"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.1335"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.1335"
+              },
+              {
+                "type": "expectedGoalsLf",
+                "value": "0.0359"
+              },
+              {
+                "type": "expectedGoalsRf",
+                "value": "0.0976"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsontarget",
+                "value": "0.0225"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenalty",
+                "value": "0.0225"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0421341"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00698454"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0351496"
+              }
+            ]
+          },
+          {
+            "playerId": "b2fxz2ow660s4esmyuwjm8ine",
+            "firstName": "Daniel",
+            "lastName": "Cunha",
+            "shortFirstName": "Daniel",
+            "shortLastName": "Cunha",
+            "matchName": "D. Cunha",
+            "shirtNumber": 4,
+            "position": "Midfielder",
+            "positionSide": "Centre",
+            "stat": [
+              {
+                "type": "attBxCentre",
+                "value": "2"
+              },
+              {
+                "type": "attCorner",
+                "value": "1"
+              },
+              {
+                "type": "attGoalHighLeft",
+                "value": "1"
+              },
+              {
+                "type": "attIboxGoal",
+                "value": "1"
+              },
+              {
+                "type": "attIboxTarget",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "attRfGoal",
+                "value": "1"
+              },
+              {
+                "type": "attRfTarget",
+                "value": "1"
+              },
+              {
+                "type": "attRfTotal",
+                "value": "2"
+              },
+              {
+                "type": "attSvHighCentre",
+                "value": "1"
+              },
+              {
+                "type": "goals",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "touches",
+                "value": "80"
+              },
+              {
+                "type": "bigChanceScored",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "2"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.4672"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.4672"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.0628"
+              },
+              {
+                "type": "expectedGoalsSetplay",
+                "value": "0.4044"
+              },
+              {
+                "type": "expectedGoalsRf",
+                "value": "0.4672"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "1.0383"
+              },
+              {
+                "type": "expectedGoalsontarget",
+                "value": "0.9323"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenalty",
+                "value": "0.9323"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.8367"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0435229"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00013114"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0433919"
+              }
+            ]
+          },
+          {
+            "playerId": "7k4csh8lmi90v6g357tiqy221",
+            "firstName": "Jamie",
+            "lastName": "Thomas Dimitroff",
+            "matchName": "J. Dimitroff",
+            "shirtNumber": 14,
+            "position": "Midfielder",
+            "positionSide": "Centre/Right",
+            "stat": [
+              {
+                "type": "attObxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attLfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attOboxBlocked",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "blockedScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "goalAssist",
+                "value": "1"
+              },
+              {
+                "type": "goalAssistIntentional",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "87"
+              },
+              {
+                "type": "ontargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "71"
+              },
+              {
+                "type": "goalAssistSetplay",
+                "value": "1"
+              },
+              {
+                "type": "bigChanceCreated",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "2"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.052"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.052"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.052"
+              },
+              {
+                "type": "expectedGoalsLf",
+                "value": "0.052"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.648466"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "2.036E-5"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.648447"
+              }
+            ]
+          },
+          {
+            "playerId": "9c29ets1jgkzn16v2lm7l3c2x",
+            "firstName": "Abraham",
+            "lastName": "Yango",
+            "matchName": "A. Yango",
+            "shirtNumber": 26,
+            "position": "Striker",
+            "positionSide": "Left/Centre",
+            "stat": [
+              {
+                "type": "attBxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attObxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attIboxTarget",
+                "value": "1"
+              },
+              {
+                "type": "attLfTarget",
+                "value": "1"
+              },
+              {
+                "type": "attLfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attOboxTarget",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "2"
+              },
+              {
+                "type": "attRfTarget",
+                "value": "1"
+              },
+              {
+                "type": "attRfTotal",
+                "value": "1"
+              },
+              {
+                "type": "attSvLowCentre",
+                "value": "1"
+              },
+              {
+                "type": "attSvLowLeft",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "72"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "42"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "2"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.1211"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.1211"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.1211"
+              },
+              {
+                "type": "expectedGoalsLf",
+                "value": "0.0336"
+              },
+              {
+                "type": "expectedGoalsRf",
+                "value": "0.0875"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsontarget",
+                "value": "0.2725"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenalty",
+                "value": "0.2725"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.0288802"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "0.00014208"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.0287382"
+              }
+            ]
+          },
+          {
+            "playerId": "99ct3kwk1zjznkwdqaxcq5kru",
+            "firstName": "Godfrey",
+            "lastName": "Debele",
+            "matchName": "G. Debele",
+            "shirtNumber": 7,
+            "position": "Striker",
+            "positionSide": "Centre/Right",
+            "stat": [
+              {
+                "type": "attObxCentre",
+                "value": "1"
+              },
+              {
+                "type": "attMissLeft",
+                "value": "1"
+              },
+              {
+                "type": "attOboxMiss",
+                "value": "1"
+              },
+              {
+                "type": "attOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "attRfTotal",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "87"
+              },
+              {
+                "type": "ontargetAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalAttAssist",
+                "value": "1"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "43"
+              },
+              {
+                "type": "attAssistOpenplay",
+                "value": "1"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "4"
+              },
+              {
+                "type": "expectedGoals",
+                "value": "0.0311"
+              },
+              {
+                "type": "expectedGoalsNonpenalty",
+                "value": "0.0311"
+              },
+              {
+                "type": "expectedGoalsOpenplay",
+                "value": "0.0311"
+              },
+              {
+                "type": "expectedGoalsRf",
+                "value": "0.0311"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.8771"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.7401"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.508128"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.508128"
+              }
+            ]
+          },
+          {
+            "playerId": "5i5n62trjetyxva7xa3gctmcq",
+            "firstName": "Mitchell",
+            "lastName": "Bird",
+            "matchName": "M. Bird",
+            "shirtNumber": 2,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "3"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "5"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "6.875E-5"
+              },
+              {
+                "type": "expectedAssistsSetplay",
+                "value": "6.875E-5"
+              }
+            ]
+          },
+          {
+            "playerId": "2ro50q15s2sgaa4o28ya64l7u",
+            "firstName": "Laurence",
+            "lastName": "Cant",
+            "matchName": "L. Cant",
+            "shirtNumber": 17,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "3"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "7"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00192058"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00192058"
+              }
+            ]
+          },
+          {
+            "playerId": "9hyzhi3rsn1mbw1kq6nrnfk0k",
+            "firstName": "Brandon",
+            "lastName": "Nagy",
+            "matchName": "B. Nagy",
+            "shirtNumber": 20,
+            "position": "Substitute",
+            "stat": []
+          },
+          {
+            "playerId": "639wliefaj83aa3kguu91qesq",
+            "firstName": "Jeremy",
+            "lastName": "Saint",
+            "matchName": "J. Saint",
+            "shirtNumber": 6,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "3"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "5"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00274271"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00274271"
+              }
+            ]
+          },
+          {
+            "playerId": "7j3xdvj6s6joiuhxfwmysje5m",
+            "firstName": "Morgan",
+            "lastName": "Saunders",
+            "matchName": "M. Saunders",
+            "shirtNumber": 11,
+            "position": "Substitute",
+            "stat": [
+              {
+                "type": "minsPlayed",
+                "value": "18"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "touches",
+                "value": "13"
+              },
+              {
+                "type": "touchesInOppBox",
+                "value": "1"
+              },
+              {
+                "type": "expectedGoalsConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsNonpenaltyConceded",
+                "value": "0.1612"
+              },
+              {
+                "type": "expectedGoalsontargetConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedGoalsontargetNonpenaltyConceded",
+                "value": "0.0966"
+              },
+              {
+                "type": "expectedAssists",
+                "value": "0.00535559"
+              },
+              {
+                "type": "expectedAssistsOpenplay",
+                "value": "0.00535559"
+              }
+            ]
+          }
+        ],
+        "stat": [
+          {
+            "fh": "3",
+            "sh": "2",
+            "type": "attBxCentre",
+            "value": "5"
+          },
+          {
+            "fh": "2",
+            "sh": "3",
+            "type": "attObxCentre",
+            "value": "5"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attCorner",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attGoalHighLeft",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attHdMiss",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attHdTotal",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attIboxGoal",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "0",
+            "type": "attIboxMiss",
+            "value": "2"
+          },
+          {
+            "fh": "0",
+            "sh": "3",
+            "type": "attIboxTarget",
+            "value": "3"
+          },
+          {
+            "fh": "1",
+            "sh": "2",
+            "type": "attLfTarget",
+            "value": "3"
+          },
+          {
+            "fh": "1",
+            "sh": "3",
+            "type": "attLfTotal",
+            "value": "4"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attMissHigh",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attMissHighLeft",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attMissLeft",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attOboxBlocked",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "attOboxMiss",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attOboxPost",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "1",
+            "type": "attOboxTarget",
+            "value": "2"
+          },
+          {
+            "fh": "4",
+            "sh": "6",
+            "type": "attOpenplay",
+            "value": "10"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attPostHigh",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attRfGoal",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "2",
+            "type": "attRfTarget",
+            "value": "2"
+          },
+          {
+            "fh": "3",
+            "sh": "3",
+            "type": "attRfTotal",
+            "value": "6"
+          },
+          {
+            "fh": "0",
+            "sh": "2",
+            "type": "attSvHighCentre",
+            "value": "2"
+          },
+          {
+            "fh": "0",
+            "sh": "2",
+            "type": "attSvLowCentre",
+            "value": "2"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "attSvLowLeft",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "blockedScoringAtt",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalAssist",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalAssistIntentional",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goals",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "midfielderGoals",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "offtargetAttAssist",
+            "value": "3"
+          },
+          {
+            "fh": "1",
+            "sh": "3",
+            "type": "ontargetAttAssist",
+            "value": "4"
+          },
+          {
+            "fh": "2",
+            "sh": "4",
+            "type": "ontargetScoringAtt",
+            "value": "6"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "postScoringAtt",
+            "value": "1"
+          },
+          {
+            "fh": "3",
+            "sh": "1",
+            "type": "shotOffTarget",
+            "value": "4"
+          },
+          {
+            "fh": "0",
+            "sh": "4",
+            "type": "subsMade",
+            "value": "4"
+          },
+          {
+            "fh": "3",
+            "sh": "4",
+            "type": "totalAttAssist",
+            "value": "7"
+          },
+          {
+            "fh": "5",
+            "sh": "6",
+            "type": "totalScoringAtt",
+            "value": "11"
+          },
+          {
+            "fh": "1",
+            "sh": "2",
+            "type": "totalYellowCard",
+            "value": "3"
+          },
+          {
+            "fh": "288",
+            "sh": "368",
+            "type": "touches",
+            "value": "656"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalAssistSetplay",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "4",
+            "type": "attAssistOpenplay",
+            "value": "6"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "bigChanceCreated",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "bigChanceScored",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "hitWoodwork",
+            "value": "1"
+          },
+          {
+            "fh": "5",
+            "sh": "14",
+            "type": "touchesInOppBox",
+            "value": "19"
+          },
+          {
+            "fh": "0.581",
+            "sh": "0.3065",
+            "type": "expectedGoals",
+            "value": "0.8875"
+          },
+          {
+            "fh": "0.581",
+            "sh": "0.3065",
+            "type": "expectedGoalsNonpenalty",
+            "value": "0.8875"
+          },
+          {
+            "fh": "0.1766",
+            "sh": "0.3065",
+            "type": "expectedGoalsOpenplay",
+            "value": "0.4831"
+          },
+          {
+            "fh": "0.4044",
+            "sh": "0",
+            "type": "expectedGoalsSetplay",
+            "value": "0.4044"
+          },
+          {
+            "fh": "0.0454",
+            "sh": "0",
+            "type": "expectedGoalsHd",
+            "value": "0.0454"
+          },
+          {
+            "fh": "0.0336",
+            "sh": "0.1251",
+            "type": "expectedGoalsLf",
+            "value": "0.1587"
+          },
+          {
+            "fh": "0.502",
+            "sh": "0.1814",
+            "type": "expectedGoalsRf",
+            "value": "0.6834"
+          },
+          {
+            "fh": "0.8439",
+            "sh": "0.1944",
+            "type": "expectedGoalsConceded",
+            "value": "1.0383"
+          },
+          {
+            "fh": "0.8439",
+            "sh": "0.1944",
+            "type": "expectedGoalsNonpenaltyConceded",
+            "value": "1.0383"
+          },
+          {
+            "fh": "1.1552",
+            "sh": "0.0912",
+            "type": "expectedGoalsontarget",
+            "value": "1.2464"
+          },
+          {
+            "fh": "1.1552",
+            "sh": "0.0912",
+            "type": "expectedGoalsontargetNonpenalty",
+            "value": "1.2464"
+          },
+          {
+            "fh": "0.7401",
+            "sh": "0.0966",
+            "type": "expectedGoalsontargetConceded",
+            "value": "0.8367"
+          },
+          {
+            "fh": "0.7401",
+            "sh": "0.0966",
+            "type": "expectedGoalsontargetNonpenaltyConceded",
+            "value": "0.8367"
+          },
+          {
+            "fh": "0.537944",
+            "sh": "0.989055",
+            "type": "expectedAssists",
+            "value": "1.52695"
+          },
+          {
+            "fh": "0.00767538",
+            "sh": "0.00181881",
+            "type": "expectedAssistsSetplay",
+            "value": "0.00949419"
+          },
+          {
+            "fh": "0.530269",
+            "sh": "0.987237",
+            "type": "expectedAssistsOpenplay",
+            "value": "1.51744"
+          }
+        ],
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "teamOfficial": {
+          "id": "wz478hpgj7mh1251rqv4bfth",
+          "firstName": "David",
+          "lastName": "Booth",
+          "type": "manager"
+        }
+      }
+    ],
+    "event": [
+      {
+        "id": 2413036195,
+        "eventId": 109,
+        "typeId": 15,
+        "periodId": 1,
+        "timeMin": 9,
+        "timeSec": 53,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "D. Kovacevic",
+        "playerId": "4rdu42c7anl36tvnjnj65vt62",
+        "outcome": 1,
+        "x": 88.0,
+        "y": 68.7,
+        "timeStamp": "2022-04-28T09:25:54.781",
+        "lastModified": "2022-04-28T09:26:04",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530538713,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530538715,
+            "qualifierId": 64
+          },
+          {
+            "id": 3530538717,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530538719,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530538721,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530538843,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530538845,
+            "qualifierId": 321,
+            "value": "0.0466"
+          },
+          {
+            "id": 3530538889,
+            "qualifierId": 233,
+            "value": "110"
+          },
+          {
+            "id": 3530539155,
+            "qualifierId": 76
+          },
+          {
+            "id": 3530539157,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530539163,
+            "qualifierId": 102,
+            "value": "53.5"
+          },
+          {
+            "id": 3530539165,
+            "qualifierId": 103,
+            "value": "8.2"
+          },
+          {
+            "id": 3530539167,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530539169,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530539171,
+            "qualifierId": 146,
+            "value": "98.8"
+          },
+          {
+            "id": 3530539173,
+            "qualifierId": 147,
+            "value": "52.7"
+          },
+          {
+            "id": 3530539175,
+            "qualifierId": 322,
+            "value": "0.1291"
+          }
+        ]
+      },
+      {
+        "id": 2413038227,
+        "eventId": 159,
+        "typeId": 13,
+        "periodId": 1,
+        "timeMin": 13,
+        "timeSec": 22,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "T. Yoshimura",
+        "playerId": "c48ndu8h2ald5oi1tv6ttnn6c",
+        "outcome": 1,
+        "x": 64.3,
+        "y": 70.8,
+        "timeStamp": "2022-04-28T09:29:24.235",
+        "lastModified": "2022-04-28T09:29:33",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530549559,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530549561,
+            "qualifierId": 19
+          },
+          {
+            "id": 3530549563,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530549565,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530549567,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530549813,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530549815,
+            "qualifierId": 321,
+            "value": "0.0198"
+          },
+          {
+            "id": 3530550041,
+            "qualifierId": 73
+          },
+          {
+            "id": 3530550045,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530550057,
+            "qualifierId": 102,
+            "value": "59.8"
+          },
+          {
+            "id": 3530550059,
+            "qualifierId": 103,
+            "value": "16.7"
+          },
+          {
+            "id": 3530550063,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530550065,
+            "qualifierId": 230,
+            "value": "98.4"
+          },
+          {
+            "id": 3530550067,
+            "qualifierId": 231,
+            "value": "52.2"
+          }
+        ]
+      },
+      {
+        "id": 2413039757,
+        "eventId": 183,
+        "typeId": 15,
+        "periodId": 1,
+        "timeMin": 15,
+        "timeSec": 38,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "A. Yango",
+        "playerId": "9c29ets1jgkzn16v2lm7l3c2x",
+        "outcome": 1,
+        "x": 77.0,
+        "y": 59.9,
+        "timeStamp": "2022-04-28T09:31:39.772",
+        "lastModified": "2022-04-28T09:34:22",
+        "qualifier": [
+          {
+            "id": 3530558049,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530558051,
+            "qualifierId": 18
+          },
+          {
+            "id": 3530558053,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530558055,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530558057,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530558263,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530558265,
+            "qualifierId": 321,
+            "value": "0.0336"
+          },
+          {
+            "id": 3530558765,
+            "qualifierId": 76
+          },
+          {
+            "id": 3530558767,
+            "qualifierId": 102,
+            "value": "53.7"
+          },
+          {
+            "id": 3530558769,
+            "qualifierId": 103,
+            "value": "3.8"
+          },
+          {
+            "id": 3530558771,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530558773,
+            "qualifierId": 458
+          },
+          {
+            "id": 3530558775,
+            "qualifierId": 146,
+            "value": "98.9"
+          },
+          {
+            "id": 3530558777,
+            "qualifierId": 147,
+            "value": "50.2"
+          },
+          {
+            "id": 3530558779,
+            "qualifierId": 322,
+            "value": "0.247"
+          },
+          {
+            "id": 3530567231,
+            "qualifierId": 233,
+            "value": "176"
+          }
+        ]
+      },
+      {
+        "id": 2413040581,
+        "eventId": 195,
+        "typeId": 13,
+        "periodId": 1,
+        "timeMin": 16,
+        "timeSec": 54,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "D. Leck",
+        "playerId": "8b2fxtj3y91wxahq2a8pv8iga",
+        "outcome": 1,
+        "x": 89.0,
+        "y": 49.3,
+        "timeStamp": "2022-04-28T09:32:56.407",
+        "lastModified": "2022-04-28T10:03:06",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530562237,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530562239,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530562241,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530562243,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530562245,
+            "qualifierId": 326,
+            "value": "1"
+          },
+          {
+            "id": 3530562455,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530562459,
+            "qualifierId": 321,
+            "value": "0.3066"
+          },
+          {
+            "id": 3530562771,
+            "qualifierId": 73
+          },
+          {
+            "id": 3530562773,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530562775,
+            "qualifierId": 154
+          },
+          {
+            "id": 3530562781,
+            "qualifierId": 102,
+            "value": "66.9"
+          },
+          {
+            "id": 3530562783,
+            "qualifierId": 103,
+            "value": "20.8"
+          },
+          {
+            "id": 3530562785,
+            "qualifierId": 214
+          },
+          {
+            "id": 3530562787,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530562789,
+            "qualifierId": 230,
+            "value": "98.9"
+          },
+          {
+            "id": 3530562791,
+            "qualifierId": 231,
+            "value": "47.3"
+          }
+        ]
+      },
+      {
+        "id": 2413043405,
+        "eventId": 222,
+        "typeId": 16,
+        "periodId": 1,
+        "timeMin": 21,
+        "timeSec": 41,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "D. Cunha",
+        "playerId": "b2fxz2ow660s4esmyuwjm8ine",
+        "outcome": 1,
+        "x": 93.7,
+        "y": 54.9,
+        "timeStamp": "2022-04-28T09:37:43.187",
+        "lastModified": "2022-04-28T09:38:23",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530577651,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530577653,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530577655,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530577657,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530577917,
+            "qualifierId": 25
+          },
+          {
+            "id": 3530577919,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530577921,
+            "qualifierId": 321,
+            "value": "0.4044"
+          },
+          {
+            "id": 3530577923,
+            "qualifierId": 374,
+            "value": "2022-04-28 10:37:42.743"
+          },
+          {
+            "id": 3530577927,
+            "qualifierId": 375,
+            "value": "21:41.142"
+          },
+          {
+            "id": 3530579471,
+            "qualifierId": 77
+          },
+          {
+            "id": 3530579473,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530579475,
+            "qualifierId": 154
+          },
+          {
+            "id": 3530579481,
+            "qualifierId": 102,
+            "value": "54.2"
+          },
+          {
+            "id": 3530579483,
+            "qualifierId": 103,
+            "value": "25.3"
+          },
+          {
+            "id": 3530579485,
+            "qualifierId": 214
+          },
+          {
+            "id": 3530579487,
+            "qualifierId": 108
+          },
+          {
+            "id": 3530579489,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530579491,
+            "qualifierId": 217
+          },
+          {
+            "id": 3530579493,
+            "qualifierId": 216,
+            "value": "220"
+          },
+          {
+            "id": 3530579497,
+            "qualifierId": 230,
+            "value": "99.3"
+          },
+          {
+            "id": 3530579499,
+            "qualifierId": 231,
+            "value": "50.4"
+          },
+          {
+            "id": 3530579501,
+            "qualifierId": 322,
+            "value": "0.9082"
+          }
+        ]
+      },
+      {
+        "id": 2413047129,
+        "eventId": 269,
+        "typeId": 13,
+        "periodId": 1,
+        "timeMin": 28,
+        "timeSec": 1,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "C. Booth",
+        "playerId": "298q92z2n7wit9e4bds7h4rqi",
+        "outcome": 1,
+        "x": 87.0,
+        "y": 38.8,
+        "timeStamp": "2022-04-28T09:44:03.223",
+        "lastModified": "2022-04-28T10:03:29",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530597651,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530597653,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530597655,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530597657,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530597659,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530597849,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530597851,
+            "qualifierId": 321,
+            "value": "0.0664"
+          },
+          {
+            "id": 3530598281,
+            "qualifierId": 74
+          },
+          {
+            "id": 3530598283,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530598285,
+            "qualifierId": 154
+          },
+          {
+            "id": 3530598291,
+            "qualifierId": 102,
+            "value": "49.1"
+          },
+          {
+            "id": 3530598293,
+            "qualifierId": 103,
+            "value": "72.2"
+          },
+          {
+            "id": 3530598295,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530598297,
+            "qualifierId": 230,
+            "value": "98.8"
+          },
+          {
+            "id": 3530598299,
+            "qualifierId": 231,
+            "value": "49.8"
+          }
+        ]
+      },
+      {
+        "id": 2413047779,
+        "eventId": 297,
+        "typeId": 15,
+        "periodId": 1,
+        "timeMin": 28,
+        "timeSec": 58,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "K. Jelacic",
+        "playerId": "4wk0sw7u4c17v2owhx5bhmusq",
+        "outcome": 1,
+        "x": 79.9,
+        "y": 28.9,
+        "timeStamp": "2022-04-28T09:44:59.874",
+        "lastModified": "2022-04-28T09:45:26",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530601011,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530601013,
+            "qualifierId": 18
+          },
+          {
+            "id": 3530601015,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530601017,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530601019,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530601999,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530602001,
+            "qualifierId": 321,
+            "value": "0.0321"
+          },
+          {
+            "id": 3530602003,
+            "qualifierId": 82
+          },
+          {
+            "id": 3530602005,
+            "qualifierId": 233,
+            "value": "271"
+          },
+          {
+            "id": 3530602169,
+            "qualifierId": 80
+          },
+          {
+            "id": 3530602171,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530602177,
+            "qualifierId": 102,
+            "value": "48.0"
+          },
+          {
+            "id": 3530602179,
+            "qualifierId": 103,
+            "value": "19"
+          },
+          {
+            "id": 3530602181,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530602183,
+            "qualifierId": 146,
+            "value": "85.4"
+          },
+          {
+            "id": 3530602185,
+            "qualifierId": 147,
+            "value": "34.1"
+          }
+        ]
+      },
+      {
+        "id": 2413051729,
+        "eventId": 323,
+        "typeId": 14,
+        "periodId": 1,
+        "timeMin": 36,
+        "timeSec": 3,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "C. Booth",
+        "playerId": "298q92z2n7wit9e4bds7h4rqi",
+        "outcome": 1,
+        "x": 74.4,
+        "y": 51.6,
+        "timeStamp": "2022-04-28T09:52:05.355",
+        "lastModified": "2022-04-28T09:53:21",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530622119,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530622121,
+            "qualifierId": 18
+          },
+          {
+            "id": 3530622123,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530622125,
+            "qualifierId": 327,
+            "value": "3"
+          },
+          {
+            "id": 3530622127,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530625187,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530625191,
+            "qualifierId": 321,
+            "value": "0.0312"
+          },
+          {
+            "id": 3530625701,
+            "qualifierId": 74
+          },
+          {
+            "id": 3530625703,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530625709,
+            "qualifierId": 102,
+            "value": "46.1"
+          },
+          {
+            "id": 3530625711,
+            "qualifierId": 103,
+            "value": "40.5"
+          },
+          {
+            "id": 3530625713,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530625715,
+            "qualifierId": 230,
+            "value": "98.4"
+          },
+          {
+            "id": 3530625717,
+            "qualifierId": 231,
+            "value": "50.4"
+          }
+        ]
+      },
+      {
+        "id": 2413051783,
+        "eventId": 324,
+        "typeId": 13,
+        "periodId": 1,
+        "timeMin": 36,
+        "timeSec": 10,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "K. Fiechtner",
+        "playerId": "3fh6kdgniu5v7fxmkwk94s5ey",
+        "outcome": 1,
+        "x": 88.9,
+        "y": 39.7,
+        "timeStamp": "2022-04-28T09:52:12.188",
+        "lastModified": "2022-04-28T09:53:30",
+        "qualifier": [
+          {
+            "id": 3530622493,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530622495,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530622497,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530622499,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530622501,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530625881,
+            "qualifierId": 15
+          },
+          {
+            "id": 3530625883,
+            "qualifierId": 321,
+            "value": "0.0454"
+          },
+          {
+            "id": 3530625885,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530625887,
+            "qualifierId": 153
+          },
+          {
+            "id": 3530626183,
+            "qualifierId": 77
+          },
+          {
+            "id": 3530626185,
+            "qualifierId": 102,
+            "value": "68.4"
+          },
+          {
+            "id": 3530626187,
+            "qualifierId": 103,
+            "value": "40.3"
+          },
+          {
+            "id": 3530626189,
+            "qualifierId": 458
+          },
+          {
+            "id": 3530626191,
+            "qualifierId": 146,
+            "value": "96.7"
+          },
+          {
+            "id": 3530626193,
+            "qualifierId": 147,
+            "value": "56.3"
+          }
+        ]
+      },
+      {
+        "id": 2413053479,
+        "eventId": 443,
+        "typeId": 16,
+        "periodId": 1,
+        "timeMin": 39,
+        "timeSec": 34,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "Z. Kierpal",
+        "playerId": "1u24lhypjueit6805oeoej9qs",
+        "outcome": 1,
+        "x": 91.3,
+        "y": 53.0,
+        "timeStamp": "2022-04-28T09:55:35.778",
+        "lastModified": "2022-04-28T09:56:10",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530631383,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530631385,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530631387,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530631389,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530631391,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530631999,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530632003,
+            "qualifierId": 321,
+            "value": "0.4388"
+          },
+          {
+            "id": 3530632009,
+            "qualifierId": 374,
+            "value": "2022-04-28 10:55:35.216"
+          },
+          {
+            "id": 3530632015,
+            "qualifierId": 375,
+            "value": "39:33.615"
+          },
+          {
+            "id": 3530632755,
+            "qualifierId": 78
+          },
+          {
+            "id": 3530632757,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530632759,
+            "qualifierId": 154
+          },
+          {
+            "id": 3530632765,
+            "qualifierId": 102,
+            "value": "48.5"
+          },
+          {
+            "id": 3530632767,
+            "qualifierId": 103,
+            "value": "3.8"
+          },
+          {
+            "id": 3530632769,
+            "qualifierId": 214
+          },
+          {
+            "id": 3530632771,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530632773,
+            "qualifierId": 230,
+            "value": "98.6"
+          },
+          {
+            "id": 3530632775,
+            "qualifierId": 231,
+            "value": "52.2"
+          },
+          {
+            "id": 3530632777,
+            "qualifierId": 322,
+            "value": "0.611"
+          }
+        ]
+      },
+      {
+        "id": 2413065441,
+        "eventId": 553,
+        "typeId": 13,
+        "periodId": 2,
+        "timeMin": 46,
+        "timeSec": 35,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "Z. Kierpal",
+        "playerId": "1u24lhypjueit6805oeoej9qs",
+        "outcome": 1,
+        "x": 98.2,
+        "y": 81.1,
+        "timeStamp": "2022-04-28T10:16:37.981",
+        "lastModified": "2022-04-28T10:38:46",
+        "qualifier": [
+          {
+            "id": 3530696075,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530696077,
+            "qualifierId": 69
+          },
+          {
+            "id": 3530696079,
+            "qualifierId": 56,
+            "value": "Left"
+          },
+          {
+            "id": 3530696081,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530696083,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530696793,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530696795,
+            "qualifierId": 321,
+            "value": "0.0332"
+          },
+          {
+            "id": 3530697139,
+            "qualifierId": 83
+          },
+          {
+            "id": 3530697145,
+            "qualifierId": 102,
+            "value": "57.0"
+          },
+          {
+            "id": 3530697149,
+            "qualifierId": 103,
+            "value": "8.3"
+          },
+          {
+            "id": 3530697153,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530697155,
+            "qualifierId": 458
+          },
+          {
+            "id": 3530697157,
+            "qualifierId": 230,
+            "value": "100"
+          },
+          {
+            "id": 3530697159,
+            "qualifierId": 231,
+            "value": "54.2"
+          }
+        ]
+      },
+      {
+        "id": 2413066905,
+        "eventId": 416,
+        "typeId": 15,
+        "periodId": 2,
+        "timeMin": 48,
+        "timeSec": 45,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "J. Dimitroff",
+        "playerId": "7k4csh8lmi90v6g357tiqy221",
+        "outcome": 1,
+        "x": 81.6,
+        "y": 44.8,
+        "timeStamp": "2022-04-28T10:18:47.637",
+        "lastModified": "2022-04-28T10:38:18",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530704209,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530704211,
+            "qualifierId": 18
+          },
+          {
+            "id": 3530704213,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530704215,
+            "qualifierId": 327,
+            "value": "3"
+          },
+          {
+            "id": 3530704217,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530705201,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530705203,
+            "qualifierId": 321,
+            "value": "0.052"
+          },
+          {
+            "id": 3530705205,
+            "qualifierId": 82
+          },
+          {
+            "id": 3530705213,
+            "qualifierId": 233,
+            "value": "568"
+          },
+          {
+            "id": 3530705745,
+            "qualifierId": 78
+          },
+          {
+            "id": 3530705747,
+            "qualifierId": 102,
+            "value": "50.4"
+          },
+          {
+            "id": 3530705749,
+            "qualifierId": 103,
+            "value": "19"
+          },
+          {
+            "id": 3530705751,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530705753,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530705757,
+            "qualifierId": 146,
+            "value": "85.6"
+          },
+          {
+            "id": 3530705759,
+            "qualifierId": 147,
+            "value": "46.0"
+          },
+          {
+            "id": 3530764947,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530764949,
+            "qualifierId": 154
+          }
+        ]
+      },
+      {
+        "id": 2413069305,
+        "eventId": 467,
+        "typeId": 15,
+        "periodId": 2,
+        "timeMin": 52,
+        "timeSec": 55,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "A. Yango",
+        "playerId": "9c29ets1jgkzn16v2lm7l3c2x",
+        "outcome": 1,
+        "x": 91.0,
+        "y": 38.8,
+        "timeStamp": "2022-04-28T10:22:57.372",
+        "lastModified": "2022-04-28T10:23:11",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530717875,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530717877,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530717879,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530717881,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530717883,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530717963,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530717965,
+            "qualifierId": 321,
+            "value": "0.0875"
+          },
+          {
+            "id": 3530717971,
+            "qualifierId": 233,
+            "value": "604"
+          },
+          {
+            "id": 3530718539,
+            "qualifierId": 78
+          },
+          {
+            "id": 3530718541,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530718543,
+            "qualifierId": 154
+          },
+          {
+            "id": 3530718549,
+            "qualifierId": 102,
+            "value": "49.9"
+          },
+          {
+            "id": 3530718551,
+            "qualifierId": 103,
+            "value": "17.7"
+          },
+          {
+            "id": 3530718553,
+            "qualifierId": 108
+          },
+          {
+            "id": 3530718555,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530718557,
+            "qualifierId": 146,
+            "value": "99.4"
+          },
+          {
+            "id": 3530718559,
+            "qualifierId": 147,
+            "value": "50.0"
+          },
+          {
+            "id": 3530718561,
+            "qualifierId": 322,
+            "value": "0.0255"
+          }
+        ]
+      },
+      {
+        "id": 2413073021,
+        "eventId": 549,
+        "typeId": 13,
+        "periodId": 2,
+        "timeMin": 60,
+        "timeSec": 1,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "G. Debele",
+        "playerId": "99ct3kwk1zjznkwdqaxcq5kru",
+        "outcome": 1,
+        "x": 74.8,
+        "y": 42.7,
+        "timeStamp": "2022-04-28T10:30:03.666",
+        "lastModified": "2022-04-28T10:30:20",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530739029,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530739031,
+            "qualifierId": 18
+          },
+          {
+            "id": 3530739033,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530739035,
+            "qualifierId": 327,
+            "value": "3"
+          },
+          {
+            "id": 3530739037,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530739517,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530739519,
+            "qualifierId": 321,
+            "value": "0.0311"
+          },
+          {
+            "id": 3530740035,
+            "qualifierId": 73
+          },
+          {
+            "id": 3530740037,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530740043,
+            "qualifierId": 102,
+            "value": "63.9"
+          },
+          {
+            "id": 3530740045,
+            "qualifierId": 103,
+            "value": "13.9"
+          },
+          {
+            "id": 3530740047,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530740049,
+            "qualifierId": 230,
+            "value": "98.0"
+          },
+          {
+            "id": 3530740051,
+            "qualifierId": 231,
+            "value": "50"
+          }
+        ]
+      },
+      {
+        "id": 2413081397,
+        "eventId": 669,
+        "typeId": 15,
+        "periodId": 2,
+        "timeMin": 75,
+        "timeSec": 29,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "D. Cunha",
+        "playerId": "b2fxz2ow660s4esmyuwjm8ine",
+        "outcome": 1,
+        "x": 86.6,
+        "y": 56.7,
+        "timeStamp": "2022-04-28T10:45:31.551",
+        "lastModified": "2022-04-28T10:45:48",
+        "qualifier": [
+          {
+            "id": 3530784953,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530784955,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530784957,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530784959,
+            "qualifierId": 327,
+            "value": "3"
+          },
+          {
+            "id": 3530784961,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530785125,
+            "qualifierId": 20
+          },
+          {
+            "id": 3530785127,
+            "qualifierId": 321,
+            "value": "0.0628"
+          },
+          {
+            "id": 3530785141,
+            "qualifierId": 233,
+            "value": "771"
+          },
+          {
+            "id": 3530785519,
+            "qualifierId": 79
+          },
+          {
+            "id": 3530785521,
+            "qualifierId": 102,
+            "value": "50.0"
+          },
+          {
+            "id": 3530785523,
+            "qualifierId": 103,
+            "value": "20.3"
+          },
+          {
+            "id": 3530785525,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530785527,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530785529,
+            "qualifierId": 458
+          },
+          {
+            "id": 3530785531,
+            "qualifierId": 146,
+            "value": "97.6"
+          },
+          {
+            "id": 3530785533,
+            "qualifierId": 147,
+            "value": "50.2"
+          },
+          {
+            "id": 3530785535,
+            "qualifierId": 322,
+            "value": "0.0241"
+          }
+        ]
+      },
+      {
+        "id": 2413083773,
+        "eventId": 726,
+        "typeId": 15,
+        "periodId": 2,
+        "timeMin": 80,
+        "timeSec": 38,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "Igor",
+        "playerId": "3rdq5u53mx54zxfp6hxydafah",
+        "outcome": 1,
+        "x": 85.2,
+        "y": 72.6,
+        "timeStamp": "2022-04-28T10:50:40.168",
+        "lastModified": "2022-04-28T10:51:12",
+        "qualifier": [
+          {
+            "id": 3530797609,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530797613,
+            "qualifierId": 64
+          },
+          {
+            "id": 3530797615,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530797617,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530797619,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530797761,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530797763,
+            "qualifierId": 321,
+            "value": "0.0372"
+          },
+          {
+            "id": 3530798079,
+            "qualifierId": 78
+          },
+          {
+            "id": 3530798081,
+            "qualifierId": 102,
+            "value": "50.2"
+          },
+          {
+            "id": 3530798083,
+            "qualifierId": 103,
+            "value": "18.4"
+          },
+          {
+            "id": 3530798085,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530798087,
+            "qualifierId": 458
+          },
+          {
+            "id": 3530798089,
+            "qualifierId": 146,
+            "value": "98.9"
+          },
+          {
+            "id": 3530798091,
+            "qualifierId": 147,
+            "value": "51.4"
+          },
+          {
+            "id": 3530798093,
+            "qualifierId": 322,
+            "value": "0.0191"
+          },
+          {
+            "id": 3530799007,
+            "qualifierId": 233,
+            "value": "820"
+          }
+        ]
+      },
+      {
+        "id": 2413088331,
+        "eventId": 943,
+        "typeId": 13,
+        "periodId": 2,
+        "timeMin": 91,
+        "timeSec": 25,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "J. Cuminao",
+        "playerId": "a4vv5gmmrx84b3c1sdvy8yiju",
+        "outcome": 1,
+        "x": 93.2,
+        "y": 47.9,
+        "timeStamp": "2022-04-28T11:01:27.918",
+        "lastModified": "2022-04-28T11:02:08",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530823187,
+            "qualifierId": 17
+          },
+          {
+            "id": 3530823189,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530823191,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530823193,
+            "qualifierId": 326,
+            "value": "3"
+          },
+          {
+            "id": 3530824677,
+            "qualifierId": 24
+          },
+          {
+            "id": 3530824679,
+            "qualifierId": 15
+          },
+          {
+            "id": 3530824681,
+            "qualifierId": 321,
+            "value": "0.1023"
+          },
+          {
+            "id": 3530824683,
+            "qualifierId": 328
+          },
+          {
+            "id": 3530824685,
+            "qualifierId": 153
+          },
+          {
+            "id": 3530825061,
+            "qualifierId": 73
+          },
+          {
+            "id": 3530825063,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530825065,
+            "qualifierId": 154
+          },
+          {
+            "id": 3530825071,
+            "qualifierId": 102,
+            "value": "86.1"
+          },
+          {
+            "id": 3530825073,
+            "qualifierId": 103,
+            "value": "13.9"
+          },
+          {
+            "id": 3530825075,
+            "qualifierId": 146,
+            "value": "98.5"
+          },
+          {
+            "id": 3530825077,
+            "qualifierId": 147,
+            "value": "91.3"
+          }
+        ]
+      },
+      {
+        "id": 2413088499,
+        "eventId": 946,
+        "typeId": 15,
+        "periodId": 2,
+        "timeMin": 91,
+        "timeSec": 45,
+        "contestantId": "2aofpfcn4ads3zzip4q9n6udy",
+        "playerName": "K. Jelacic",
+        "playerId": "4wk0sw7u4c17v2owhx5bhmusq",
+        "outcome": 1,
+        "x": 94.0,
+        "y": 67.8,
+        "timeStamp": "2022-04-28T11:01:47.921",
+        "lastModified": "2022-04-28T11:07:53",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530824095,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530824097,
+            "qualifierId": 64
+          },
+          {
+            "id": 3530824099,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530824101,
+            "qualifierId": 327,
+            "value": "2"
+          },
+          {
+            "id": 3530824103,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530824303,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530824317,
+            "qualifierId": 321,
+            "value": "0.0589"
+          },
+          {
+            "id": 3530824495,
+            "qualifierId": 76
+          },
+          {
+            "id": 3530824497,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530824503,
+            "qualifierId": 102,
+            "value": "53.0"
+          },
+          {
+            "id": 3530824505,
+            "qualifierId": 103,
+            "value": "7.0"
+          },
+          {
+            "id": 3530824507,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530824509,
+            "qualifierId": 146,
+            "value": "98.0"
+          },
+          {
+            "id": 3530824511,
+            "qualifierId": 147,
+            "value": "57.8"
+          },
+          {
+            "id": 3530824513,
+            "qualifierId": 322,
+            "value": "0.0966"
+          },
+          {
+            "id": 3530839743,
+            "qualifierId": 233,
+            "value": "859"
+          }
+        ]
+      },
+      {
+        "id": 2413090049,
+        "eventId": 857,
+        "typeId": 15,
+        "periodId": 2,
+        "timeMin": 95,
+        "timeSec": 1,
+        "contestantId": "1u6fd4mmcvzdhm0kqa1vqm3ve",
+        "playerName": "C. Booth",
+        "playerId": "298q92z2n7wit9e4bds7h4rqi",
+        "outcome": 1,
+        "x": 79.9,
+        "y": 35.1,
+        "timeStamp": "2022-04-28T11:05:03.685",
+        "lastModified": "2022-04-28T11:05:16",
+        "assist": 1,
+        "qualifier": [
+          {
+            "id": 3530832413,
+            "qualifierId": 22
+          },
+          {
+            "id": 3530832415,
+            "qualifierId": 18
+          },
+          {
+            "id": 3530832417,
+            "qualifierId": 56,
+            "value": "Center"
+          },
+          {
+            "id": 3530832419,
+            "qualifierId": 327,
+            "value": "3"
+          },
+          {
+            "id": 3530832421,
+            "qualifierId": 326,
+            "value": "2"
+          },
+          {
+            "id": 3530832597,
+            "qualifierId": 72
+          },
+          {
+            "id": 3530832599,
+            "qualifierId": 321,
+            "value": "0.0359"
+          },
+          {
+            "id": 3530832781,
+            "qualifierId": 79
+          },
+          {
+            "id": 3530832783,
+            "qualifierId": 29
+          },
+          {
+            "id": 3530832789,
+            "qualifierId": 102,
+            "value": "49.9"
+          },
+          {
+            "id": 3530832791,
+            "qualifierId": 103,
+            "value": "21.5"
+          },
+          {
+            "id": 3530832793,
+            "qualifierId": 215
+          },
+          {
+            "id": 3530832795,
+            "qualifierId": 146,
+            "value": "98.8"
+          },
+          {
+            "id": 3530832797,
+            "qualifierId": 147,
+            "value": "49.6"
+          },
+          {
+            "id": 3530832799,
+            "qualifierId": 322,
+            "value": "0.0225"
+          },
+          {
+            "id": 3530832839,
+            "qualifierId": 233,
+            "value": "977"
+          }
+        ]
+      }
+    ]
+  }
+}
