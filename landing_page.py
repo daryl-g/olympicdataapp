@@ -2,8 +2,7 @@
 import streamlit as st
 from PIL import Image
 from MultiPage import MultiPage
-from pages import introductory, team_performance, player_individual, player_statscompare, \
-    matches_lastmatch, matches_last5, opposition_overview, opposition_detailed, data_processing
+from pages import introductory, team_performance, matches_lastmatch, opposition_detailed, data_processing
 
 st.set_page_config(
     page_title='Olympic FC Data App',
