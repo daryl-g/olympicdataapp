@@ -425,6 +425,10 @@ def app():
 
         if (vizOption == 'Radar plot'):
 
+            nplqTeams = ['Brisbane City', 'Brisbane Roar Youth', 'Capalaba', 'Eastern Suburbs', 'Gold Coast Knights',
+                'Gold Coast United', 'Lions', 'Logan Lightning', 'Moreton Bay United', 'Olympic',
+                'Peninsula Power', 'Sunshine Coast Wanderers']
+
             gprParams = [params[4], params[6], params[8], params[10], params[0], params[1], params[11], params[21], params[24], params[12], params[16], params[17]]
             attackingParams = [params[4], params[6], params[0], params[1], params[25], params[23], params[24], params[11], params[20], params[21]]
             defendingParams = [params[8], params[10], params[2], params[12], params[13], params[14], params[15], params[16], params[17], params[19]]
