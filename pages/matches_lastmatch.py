@@ -1076,7 +1076,9 @@ def app():
             player_x_value = 0
             player_y_value = 0
             homeXI = []  # Array to store the home team's starting lineup
+            homeShirtNo = []
             awayXI = []  # Array to store the away team's starting lineup
+            awayShirtNo = []
             home_x_y_values = []  # Array to store the home player's x and y values
             away_x_y_values = []  # Array to store the away player's x and y values
             home_pass_success = []  # Array to store the home player's accurate passes value
@@ -1085,6 +1087,22 @@ def app():
             homePassLocation = []
             # Array to store the away player's x and y values of the pass destination
             awayPassLocation = []
+
+            for player in home['player']:
+
+                if (player['position'] != 'Substitute'):
+                    homeXI.append(player['matchName'])
+                    homeShirtNo.append(player['shirtNumber'])
+                else:
+                    break
+
+            for player in away['player']:
+
+                if player['position'] != 'Substitute':
+                    awayXI.append(player['matchName'])
+                    awayShirtNo.append(player['shirtNumber'])
+                else:
+                    break
 
             for player in home['player']:
 
