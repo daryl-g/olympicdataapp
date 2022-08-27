@@ -403,6 +403,8 @@ def app():
                 # Error with this id
                 if (event['id'] == 2207030489):
                     break
+                
+                isqualifier = False
 
                 # Check if the team in possession's ID matches the home team's ID or not
                 if (event['contestantId'] == homeTeamId):
