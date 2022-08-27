@@ -1086,55 +1086,58 @@ def app():
             # Array to store the away player's x and y values of the pass destination
             awayPassLocation = []
 
+            for player in home['player']:
+
+                if (player['position'] != 'Substitute'):
+
+                    if ('x' in player):
+                        player_x_value = player['x']
+                        player_y_value = player['y']
+                        home_x_y_values.append([player['playerId'], player['matchName'], player_x_value, player_y_value])
+                        home_pass_success.append(player['passSuccess'])
+                else:
+                    break
+
+            for player in away['player']:
+
+                if (player['position'] != 'Substitute'):
+
+                    if ('x' in player):
+                        player_x_value = player['x']
+                        player_y_value = player['y']
+                        away_x_y_values.append([player['playerId'], player['matchName'], player_x_value, player_y_value])
+                        away_pass_success.append(player['passSuccess'])
+                else:
+                    break
+
             # Go through the home team's squad list
             # and gather necessary information
             for player in home['player']:
 
                 # Check if a player is a substitute or not
-                if player['position'] != 'Substitute':
+                if (player['position'] != 'Substitute') and ('playerPass' in player):
 
-                    # Get the player's name to the starting XI array
-                    homeXI.append(player['matchName'])
-                    # Get the player's x coordinate
-                    player_x_value = player['x']
-                    # Get the player's y coordinate
-                    player_y_value = player['y']
-                    # Add the information to the x_y_values array
-                    home_x_y_values.append(
-                        [player['playerId'], player['matchName'], player_x_value, player_y_value])
-                    # Add the player's successful passes to another array
-                    home_pass_success.append(player['passSuccess'])
-
-                    # Go through the playerPass section of each player
                     for playerPass in player['playerPass']:
-                        ballPasser = player['playerId']  # Get the passer's ID
-                        # Get the receiver's ID
-                        ballReceiver = playerPass['playerId']
-                        # Get the number of passes made in between the two players
-                        passValue = playerPass['value']
-                        homePassLocation.append(
-                            [ballPasser, ballReceiver, passValue])  # Add those values to another array
-                else:
-                    break  # If the for loop reaches a substitute, it will stop the loop
 
-            # Do the same process as above for the away team
+                        if ('playerId' in player) and ('playerId' in playerPass):
+                            ballPasser = player['playerId']
+                            ballReceiver = playerPass['playerId']
+                            passValue = playerPass['value']
+                            homePassLocation.append([ballPasser, ballReceiver, passValue])
+                else:
+                    break
+
             for player in away['player']:
 
-                if player['position'] != 'Substitute':
-
-                    awayXI.append(player['matchName'])
-                    player_x_value = player['x']
-                    player_y_value = player['y']
-                    away_x_y_values.append(
-                        [player['playerId'], player['matchName'], player_x_value, player_y_value])
-                    away_pass_success.append(player['passSuccess'])
+                if (player['position'] != 'Substitute') and ('playerPass' in player):
 
                     for playerPass in player['playerPass']:
-                        ballPasser = player['playerId']
-                        ballReceiver = playerPass['playerId']
-                        passValue = playerPass['value']
-                        awayPassLocation.append(
-                            [ballPasser, ballReceiver, passValue])
+
+                        if ('playerId' in player) and ('playerId' in playerPass):
+                            ballPasser = player['playerId']
+                            ballReceiver = playerPass['playerId']
+                            passValue = playerPass['value']
+                            awayPassLocation.append([ballPasser, ballReceiver, passValue])
                 else:
                     break
 
@@ -1145,60 +1148,48 @@ def app():
 
             if (vizOption == "Home team's passing network"):
 
-                # Create variables to store the starting and ending x,y coordinates of the passes
-                x_start = 0
-                y_start = 0
-                x_end = 0
-                y_end = 0
+                for i in range(0, len(homePassLocation)):
+                    isStarting = False
+                    for y in range(0, len(home_x_y_values)):
+                        if homePassLocation[i][0] == home_x_y_values[y][0]:
+                            x_start = home_x_y_values[y][2]
+                            y_start = home_x_y_values[y][3]
+                        if homePassLocation[i][1] == home_x_y_values[y][0]:
+                            x_end = home_x_y_values[y][2]
+                            y_end = home_x_y_values[y][3]
+                            isStarting = True
+                    if isStarting == False:
+                        continue
 
-                # Set the page header to the match's information
-                st.header(homeTeam + " | Passing network")
-                st.subheader(matchName + ' - ' + compName)
-
-                # Go through the homePassLocation array and get the information to draw
                 for passes in homePassLocation:
-                    ballPasser = passes[0]  # Get the passer's ID
-                    ballReceiver = passes[1]  # Get the receiver's ID
-                    passValue = passes[2]  # Get the number of passes made
+                    ballPasser = passes[0]
+                    ballReceiver = passes[1]
+                    passValue = passes[2]
                     for player in home_x_y_values:
-                        # If the player's ID matches the ID of the passer
                         if ballPasser == player[0]:
-                            # Assign the x and y coordinates as the starting location
                             x_start = player[2]
                             y_start = player[3]
-                        # If the player's ID matches the ID of the receiver
                         elif ballReceiver == player[0]:
-                            # Assign the x and y coordinates as the ending location
                             x_end = player[2]
                             y_end = player[3]
 
-                    # Determine the colours of the pass arrows
-                    if passValue < 4:  # If the number of passes made is less than 4
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=1.5,
-                                             headwidth=1, headlength=1, color='#32527b', alpha=0.1, ax=ax)
-                    elif passValue < 6:  # If the number of passes made is less than 6
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=2.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#c7d5ed', alpha=0.3, ax=ax)
-                    elif passValue < 12:  # If the number of passes made is less than 12
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=3.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#abc0e4', alpha=0.5, ax=ax)
-                    elif passValue < 16:  # If the number of passes made is less than 16
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=4.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#dde5f4', alpha=0.65, ax=ax)
-                    else:  # If the number of passes made is 16 or above
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=5.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#f6f8fc', alpha=0.85, ax=ax)
+                    if passValue < 4:
+                        # arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 1.5, headwidth = 1, headlength = 1, color = '#32527b', alpha = 0.1, ax = ax)
+                        continue
+                    elif passValue < 6:
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 2.5, headwidth=4, headlength=2, headaxislength=2, color = '#c7d5ed', alpha = 0.3, ax = ax)
+                    elif passValue < 12:
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 3.5, headwidth=4, headlength=2, headaxislength=2, color = '#abc0e4', alpha = 0.5, ax = ax)
+                    elif passValue < 16:
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 4.5, headwidth=4, headlength=2, headaxislength=2, color = '#dde5f4', alpha = 0.65, ax = ax)
+                    else:
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 5.5, headwidth=4, headlength=2, headaxislength=2, color = '#f6f8fc', alpha = 0.85, ax = ax)
 
-                # Go through the x_y_values array to get the players' average positions
-                # and draw on the pitch to match the pass arrows
                 for i in range(0, len(home_x_y_values)):
-                    nodes = pitch.scatter(home_x_y_values[i][2], home_x_y_values[i][3], s=4.5 *
-                                          home_pass_success[i], color=home_colour, edgecolors=home_edge_colour, zorder=1, ax=ax)
+                    nodes = pitch.scatter(home_x_y_values[i][2], home_x_y_values[i][3], s = 4.5 * home_pass_success[i], color = home_colour, edgecolors = home_edge_colour, zorder = 1, ax = ax)
                     playerInfo = homeXI[i]
-                    playerPosition = (
-                        home_x_y_values[i][2], home_x_y_values[i][3])
-                    text = pitch.annotate(playerInfo, playerPosition, (home_x_y_values[i][2], home_x_y_values[i][3] + 4.2),
-                                          ha='center', va='center', fontproperties=robotoRegular, fontsize=12, color='white', ax=ax)
+                    playerPosition = (home_x_y_values[i][2], home_x_y_values[i][3])
+                    text = pitch.annotate(playerInfo, playerPosition, (home_x_y_values[i][2], home_x_y_values[i][3] + 4.2), ha = 'center', va = 'center', fontproperties = robotoRegular, fontsize = 12, color = 'white', ax = ax)
 
             elif (vizOption == "Away team's passing network"):
 
@@ -1230,28 +1221,23 @@ def app():
                             y_end = player[3]
 
                     if passValue < 4:
+                        # arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 1.5, headwidth = 1, headlength = 1, color = '#c7d5ed', alpha = 0.15, ax = ax)
                         continue
                     elif passValue < 6:
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=2.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#c7d5ed', alpha=0.3, ax=ax)
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 2.5, headwidth=4, headlength=2, headaxislength=2, color = '#abc0e4', alpha = 0.35, ax = ax)
                     elif passValue < 12:
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=3.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#abc0e4', alpha=0.5, ax=ax)
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 3.5, headwidth=4, headlength=2, headaxislength=2, color = '#c8d5ed', alpha = 0.5, ax = ax)
                     elif passValue < 16:
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=4.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#dde5f4', alpha=0.65, ax=ax)
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 4.5, headwidth=4, headlength=2, headaxislength=2, color = '#dde5f4', alpha = 0.75, ax = ax)
                     else:
-                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width=5.5,
-                                             headwidth=4, headlength=2, headaxislength=2, color='#f6f8fc', alpha=0.85, ax=ax)
+                        arrow = pitch.arrows(x_start, y_start, x_end, y_end, width = 5.5, headwidth=4, headlength=2, headaxislength=2, color = '#f6f8fc', alpha = 1, ax = ax)
 
                 for i in range(0, len(away_x_y_values)):
-                    nodes = pitch.scatter(away_x_y_values[i][2], away_x_y_values[i][3], s=4.5 *
-                                          away_pass_success[i], color=away_colour, edgecolors=away_edge_colour, zorder=1, ax=ax)
+                    nodes = pitch.scatter(away_x_y_values[i][2], away_x_y_values[i][3], s = 4.5 * away_pass_success[i], color = away_colour, edgecolors = away_edge_colour, zorder = 1, ax = ax)
+                    
                     playerInfo = awayXI[i]
-                    playerPosition = (
-                        away_x_y_values[i][2], away_x_y_values[i][3])
-                    text = pitch.annotate(playerInfo, playerPosition, (away_x_y_values[i][2], away_x_y_values[i][3] + 4.2),
-                                          ha='center', va='center', fontproperties=robotoRegular, fontsize=12, color='white', ax=ax)
+                    playerPosition = (away_x_y_values[i][2], away_x_y_values[i][3])
+                    text = pitch.annotate(playerInfo, (playerPosition), (away_x_y_values[i][2], away_x_y_values[i][3] + 4.2), ha = 'center', va = 'center', fontproperties = robotoRegular, fontsize = 12, color = 'white', ax = ax)
 
             # Create a colour map from the colours used for the arrows
             cmap0 = mpl.colors.LinearSegmentedColormap.from_list(
