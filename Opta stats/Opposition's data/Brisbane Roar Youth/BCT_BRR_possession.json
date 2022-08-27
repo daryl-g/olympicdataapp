@@ -1,0 +1,656 @@
+{
+  "matchInfo": {
+    "id": "75dbez6rc5v6yzb7hpjdaauc4",
+    "coverageLevel": "12",
+    "date": "2022-08-21Z",
+    "time": "05:00:00Z",
+    "localDate": "2022-08-21",
+    "localTime": "15:00:00",
+    "week": "22",
+    "numberOfPeriods": 2,
+    "periodLength": 45,
+    "lastUpdated": "2022-08-25T23:21:56Z",
+    "description": "Brisbane City vs Brisbane Roar II",
+    "sport": {
+      "id": "289u5typ3vp4ifwh5thalohmq",
+      "name": "Soccer"
+    },
+    "ruleset": {
+      "id": "79plas4983031idr6vw83nuel",
+      "name": "Men"
+    },
+    "competition": {
+      "id": "61fzfjogstjuukzcehighq7mu",
+      "name": "Queensland NPL",
+      "competitionCode": "QLD",
+      "competitionFormat": "Domestic league",
+      "country": {
+        "id": "u5ieemi69z72c3bgczyy68lo",
+        "name": "Australia"
+      }
+    },
+    "tournamentCalendar": {
+      "id": "bgpaje6tbd5kz086jihlxcnbo",
+      "startDate": "2022-03-19Z",
+      "endDate": "2022-09-09Z",
+      "name": "2022"
+    },
+    "stage": {
+      "id": "bgwxnv3jvkjmgxwy00gkeihas",
+      "formatId": "e2q01r9o9jwiq1fls93d1sslx",
+      "startDate": "2022-03-19Z",
+      "endDate": "2022-08-27Z",
+      "name": "Regular Season"
+    },
+    "contestant": [
+      {
+        "id": "8i26qyy9l1nqijthy5wuji5sr",
+        "name": "Brisbane City",
+        "shortName": "Brisbane City",
+        "officialName": "Brisbane City FC",
+        "code": "BCT",
+        "position": "home",
+        "country": {
+          "id": "u5ieemi69z72c3bgczyy68lo",
+          "name": "Australia"
+        }
+      },
+      {
+        "id": "d44s5vzvbgwn0bs2ownvuk8kq",
+        "name": "Brisbane Roar II",
+        "shortName": "Roar",
+        "officialName": "Brisbane Roar FC Under 21",
+        "code": "BRR",
+        "position": "away",
+        "country": {
+          "id": "u5ieemi69z72c3bgczyy68lo",
+          "name": "Australia"
+        }
+      }
+    ],
+    "venue": {
+      "id": "3xn2pkq83ut9lg617e8eaejpv",
+      "neutral": "no",
+      "longName": "Spencer Park",
+      "shortName": "Spencer Park"
+    }
+  },
+  "liveData": {
+    "matchDetails": {
+      "periodId": 14,
+      "matchStatus": "Played",
+      "winner": "home",
+      "scores": {
+        "ht": {
+          "home": 2,
+          "away": 0
+        },
+        "ft": {
+          "home": 4,
+          "away": 0
+        },
+        "total": {
+          "home": 4,
+          "away": 0
+        }
+      }
+    },
+    "possession": {
+      "possessionWave": [
+        {
+          "type": "ballPossession",
+          "intervalLength": [
+            {
+              "type": "5",
+              "interval": [
+                {
+                  "type": "0-5",
+                  "away": "41.2",
+                  "home": "58.8"
+                },
+                {
+                  "type": "6-10",
+                  "away": "32.8",
+                  "home": "67.2"
+                },
+                {
+                  "type": "11-15",
+                  "away": "35.0",
+                  "home": "65.0"
+                },
+                {
+                  "type": "16-20",
+                  "away": "30.4",
+                  "home": "69.6"
+                },
+                {
+                  "type": "21-25",
+                  "away": "22.6",
+                  "home": "77.4"
+                },
+                {
+                  "type": "26-30",
+                  "away": "26.6",
+                  "home": "73.4"
+                },
+                {
+                  "type": "31-35",
+                  "away": "17.5",
+                  "home": "82.5"
+                },
+                {
+                  "type": "36-40",
+                  "away": "8.9",
+                  "home": "91.1"
+                },
+                {
+                  "type": "41-45",
+                  "away": "48.5",
+                  "home": "51.5"
+                },
+                {
+                  "type": "46-50",
+                  "away": "20.0",
+                  "home": "80.0"
+                },
+                {
+                  "type": "51-55",
+                  "away": "38.6",
+                  "home": "61.4"
+                },
+                {
+                  "type": "56-60",
+                  "away": "50.0",
+                  "home": "50.0"
+                },
+                {
+                  "type": "61-65",
+                  "away": "37.5",
+                  "home": "62.5"
+                },
+                {
+                  "type": "66-70",
+                  "away": "30.8",
+                  "home": "69.2"
+                },
+                {
+                  "type": "71-75",
+                  "away": "27.1",
+                  "home": "72.9"
+                },
+                {
+                  "type": "76-80",
+                  "away": "47.8",
+                  "home": "52.2"
+                },
+                {
+                  "type": "81-85",
+                  "away": "53.1",
+                  "home": "46.9"
+                },
+                {
+                  "type": "86-90",
+                  "away": "50.0",
+                  "home": "50.0"
+                }
+              ]
+            },
+            {
+              "type": "15",
+              "interval": [
+                {
+                  "type": "0-15",
+                  "away": "36.6",
+                  "home": "63.4"
+                },
+                {
+                  "type": "16-30",
+                  "away": "26.2",
+                  "home": "73.8"
+                },
+                {
+                  "type": "31-45",
+                  "away": "27.2",
+                  "home": "72.8"
+                },
+                {
+                  "type": "46-60",
+                  "away": "33.9",
+                  "home": "66.1"
+                },
+                {
+                  "type": "61-75",
+                  "away": "30.5",
+                  "home": "69.5"
+                },
+                {
+                  "type": "76-90",
+                  "away": "50.6",
+                  "home": "49.4"
+                }
+              ]
+            },
+            {
+              "type": "45",
+              "interval": [
+                {
+                  "type": "0-45",
+                  "away": "30.2",
+                  "home": "69.8"
+                },
+                {
+                  "type": "46-90",
+                  "away": "38.7",
+                  "home": "61.3"
+                }
+              ]
+            }
+          ],
+          "last": [
+            {
+              "type": "5",
+              "away": "50.0",
+              "home": "50.0"
+            },
+            {
+              "type": "10",
+              "away": "51.7",
+              "home": "48.3"
+            },
+            {
+              "type": "15",
+              "away": "50.6",
+              "home": "49.4"
+            },
+            {
+              "type": "20",
+              "away": "43.6",
+              "home": "56.4"
+            },
+            {
+              "type": "25",
+              "away": "40.9",
+              "home": "59.1"
+            },
+            {
+              "type": "30",
+              "away": "40.5",
+              "home": "59.5"
+            }
+          ],
+          "overall": {
+            "away": "34.2",
+            "home": "65.8"
+          }
+        },
+        {
+          "type": "territorial",
+          "intervalLength": [
+            {
+              "type": "5",
+              "interval": [
+                {
+                  "type": "0-5",
+                  "away": "58.8",
+                  "home": "41.2"
+                },
+                {
+                  "type": "6-10",
+                  "away": "62.1",
+                  "home": "37.9"
+                },
+                {
+                  "type": "11-15",
+                  "away": "80.0",
+                  "home": "20.0"
+                },
+                {
+                  "type": "16-20",
+                  "away": "76.1",
+                  "home": "23.9"
+                },
+                {
+                  "type": "21-25",
+                  "away": "40.3",
+                  "home": "59.7"
+                },
+                {
+                  "type": "26-30",
+                  "away": "53.1",
+                  "home": "46.9"
+                },
+                {
+                  "type": "31-35",
+                  "away": "80.0",
+                  "home": "20.0"
+                },
+                {
+                  "type": "36-40",
+                  "away": "50.0",
+                  "home": "50.0"
+                },
+                {
+                  "type": "41-45",
+                  "away": "69.7",
+                  "home": "30.3"
+                },
+                {
+                  "type": "46-50",
+                  "away": "68.0",
+                  "home": "32.0"
+                },
+                {
+                  "type": "51-55",
+                  "away": "47.7",
+                  "home": "52.3"
+                },
+                {
+                  "type": "56-60",
+                  "away": "76.7",
+                  "home": "23.3"
+                },
+                {
+                  "type": "61-65",
+                  "away": "62.5",
+                  "home": "37.5"
+                },
+                {
+                  "type": "66-70",
+                  "away": "72.3",
+                  "home": "27.7"
+                },
+                {
+                  "type": "71-75",
+                  "away": "90.0",
+                  "home": "10.0"
+                },
+                {
+                  "type": "76-80",
+                  "away": "67.4",
+                  "home": "32.6"
+                },
+                {
+                  "type": "81-85",
+                  "away": "71.9",
+                  "home": "28.1"
+                },
+                {
+                  "type": "86-90",
+                  "away": "83.9",
+                  "home": "16.1"
+                }
+              ]
+            },
+            {
+              "type": "15",
+              "interval": [
+                {
+                  "type": "0-15",
+                  "away": "66.7",
+                  "home": "33.3"
+                },
+                {
+                  "type": "16-30",
+                  "away": "54.7",
+                  "home": "45.3"
+                },
+                {
+                  "type": "31-45",
+                  "away": "65.4",
+                  "home": "34.6"
+                },
+                {
+                  "type": "46-60",
+                  "away": "62.9",
+                  "home": "37.1"
+                },
+                {
+                  "type": "61-75",
+                  "away": "77.8",
+                  "home": "22.2"
+                },
+                {
+                  "type": "76-90",
+                  "away": "74.7",
+                  "home": "25.3"
+                }
+              ]
+            },
+            {
+              "type": "45",
+              "interval": [
+                {
+                  "type": "0-45",
+                  "away": "62.3",
+                  "home": "37.7"
+                },
+                {
+                  "type": "46-90",
+                  "away": "72.6",
+                  "home": "27.4"
+                }
+              ]
+            }
+          ],
+          "last": [
+            {
+              "type": "5",
+              "away": "83.9",
+              "home": "16.1"
+            },
+            {
+              "type": "10",
+              "away": "77.5",
+              "home": "22.5"
+            },
+            {
+              "type": "15",
+              "away": "74.7",
+              "home": "25.3"
+            },
+            {
+              "type": "20",
+              "away": "79.2",
+              "home": "20.8"
+            },
+            {
+              "type": "25",
+              "away": "77.7",
+              "home": "22.3"
+            },
+            {
+              "type": "30",
+              "away": "76.3",
+              "home": "23.7"
+            }
+          ],
+          "overall": {
+            "away": "67.1",
+            "home": "32.9"
+          }
+        },
+        {
+          "type": "territorialThird",
+          "intervalLength": [
+            {
+              "type": "5",
+              "interval": [
+                {
+                  "type": "0-5",
+                  "away": "19.1",
+                  "home": "35.3",
+                  "middle": "45.6"
+                },
+                {
+                  "type": "6-10",
+                  "away": "27.6",
+                  "home": "37.9",
+                  "middle": "34.5"
+                },
+                {
+                  "type": "11-15",
+                  "away": "13.3",
+                  "home": "51.7",
+                  "middle": "35.0"
+                },
+                {
+                  "type": "16-20",
+                  "away": "8.7",
+                  "home": "52.2",
+                  "middle": "39.1"
+                },
+                {
+                  "type": "21-25",
+                  "away": "40.3",
+                  "home": "9.7",
+                  "middle": "50.0"
+                },
+                {
+                  "type": "26-30",
+                  "away": "28.1",
+                  "home": "25.0",
+                  "middle": "46.9"
+                },
+                {
+                  "type": "31-35",
+                  "away": "5.0",
+                  "home": "35.0",
+                  "middle": "60.0"
+                },
+                {
+                  "type": "36-40",
+                  "away": "21.4",
+                  "home": "14.3",
+                  "middle": "64.3"
+                },
+                {
+                  "type": "41-45",
+                  "away": "15.2",
+                  "home": "43.9",
+                  "middle": "40.9"
+                },
+                {
+                  "type": "46-50",
+                  "away": "8.0",
+                  "home": "38.0",
+                  "middle": "54.0"
+                },
+                {
+                  "type": "51-55",
+                  "away": "18.2",
+                  "home": "22.7",
+                  "middle": "59.1"
+                },
+                {
+                  "type": "56-60",
+                  "away": "3.3",
+                  "home": "66.7",
+                  "middle": "30.0"
+                },
+                {
+                  "type": "61-65",
+                  "away": "18.8",
+                  "home": "50.0",
+                  "middle": "31.2"
+                },
+                {
+                  "type": "66-70",
+                  "away": "10.8",
+                  "home": "52.3",
+                  "middle": "36.9"
+                },
+                {
+                  "type": "71-75",
+                  "away": "2.9",
+                  "home": "70.0",
+                  "middle": "27.1"
+                },
+                {
+                  "type": "76-80",
+                  "away": "19.6",
+                  "home": "43.5",
+                  "middle": "36.9"
+                },
+                {
+                  "type": "81-85",
+                  "away": "7.8",
+                  "home": "48.4",
+                  "middle": "43.8"
+                },
+                {
+                  "type": "86-90",
+                  "away": "7.1",
+                  "home": "58.9",
+                  "middle": "34.0"
+                }
+              ]
+            },
+            {
+              "type": "15",
+              "interval": [
+                {
+                  "type": "0-15",
+                  "away": "19.9",
+                  "home": "41.4",
+                  "middle": "38.7"
+                },
+                {
+                  "type": "16-30",
+                  "away": "27.3",
+                  "home": "26.7",
+                  "middle": "46.0"
+                },
+                {
+                  "type": "31-45",
+                  "away": "14.8",
+                  "home": "31.5",
+                  "middle": "53.7"
+                },
+                {
+                  "type": "46-60",
+                  "away": "10.5",
+                  "home": "39.5",
+                  "middle": "50.0"
+                },
+                {
+                  "type": "61-75",
+                  "away": "9.0",
+                  "home": "59.3",
+                  "middle": "31.7"
+                },
+                {
+                  "type": "76-90",
+                  "away": "10.8",
+                  "home": "50.6",
+                  "middle": "38.6"
+                }
+              ]
+            },
+            {
+              "type": "45",
+              "interval": [
+                {
+                  "type": "0-45",
+                  "away": "20.8",
+                  "home": "33.5",
+                  "middle": "45.7"
+                },
+                {
+                  "type": "46-90",
+                  "away": "10.1",
+                  "home": "50.8",
+                  "middle": "39.1"
+                }
+              ]
+            }
+          ],
+          "overall": {
+            "away": "15.8",
+            "home": "41.6",
+            "middle": "42.6"
+          }
+        }
+      ]
+    }
+  }
+}
