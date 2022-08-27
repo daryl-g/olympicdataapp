@@ -406,73 +406,156 @@ def app():
 
                 # Check if the team in possession's ID matches the home team's ID or not
                 if (event['contestantId'] == homeTeamId):
-
+                    
                     # Get the typeId of the shot
                     xGoalEvent['shotType'] = event['typeId']
-                    # Get the x coordinate of the shot
-                    xGoalEvent['x'] = event['x']
-                    # Get the y coordinate of the shot
-                    xGoalEvent['y'] = event['y']
-                    # Assign the scorer's name to the respective value of the dict
-                    # and leave the away scorer name field blank
-                    xGoalEvent['homeScorerName'] = event['playerName']
-                    xGoalEvent['awayScorerName'] = ""
-
-                    # Go through the qualifiers of the shot
+                    
+                    # Check if the scored goal is an own goal or not
                     for qualifier in event['qualifier']:
-                        # If the qualifierId is 321 (store the xG value of the shot)
-                        if (qualifier['qualifierId'] == 321):
-                            # Get the xG value of the shot
-                            xGoalEvent['homeEachXGoal'] = float(
-                                qualifier['value'])
-                            xGoalEvent['awayEachXGoal'] = 0
-                            # Add the xG value of the current shot to the total xG value of the home team
-                            homeXGoal += float(qualifier['value'])
-                            xGoalEvent['homeXGoal'] = homeXGoal
+                        if (qualifier['qualifierId'] == 28):
+                            isqualifier = True
+                            break
 
-                        # If the qualifierId is 322 (store the xGOT value of the shot)
-                        elif (qualifier['qualifierId'] == 322):
-                            # Get the xGOT value of the shot
-                            xGoalEvent['homeXGOT'] = float(qualifier['value'])
-                            xGoalEvent['awayXGOT'] = 0
+                    if (isqualifier == False):
+                        
+                        # Assign the scorer's name to the respective value of the dict
+                        # and leave the away scorer name field blank
+                        if (xGoalEvent['shotType'] == 16):
+                            xGoalEvent['homeScorerName'] = event['playerName']
+                            xGoalEvent['awayScorerName'] = ""
+                        else:
+                            xGoalEvent['homeScorerName'] = ""
+                            xGoalEvent['awayScorerName'] = ""
+                        
+                        # Go through the qualifiers of the shot
+                        for qualifier in event['qualifier']:
+                            # If the qualifierId is 321 (store the xG value of the shot)
+                            if (qualifier['qualifierId'] == 321):
+                                # Get the xG value of the shot
+                                homeEachXGoal = float(qualifier['value'])
+                                awayEachXGoal = 0
+                                
+                                xGoalEvent['homeEachXGoal'] = homeEachXGoal
+                                xGoalEvent['awayEachXGoal'] = awayEachXGoal
+                                # Add the xG value of the current shot to the total xG value of the home team
+                                homeXGoal += float(qualifier['value'])
+                                xGoalEvent['homeXGoal'] = homeXGoal
 
-                        # Check if the shot (on target) is a blocked shot or not
-                        if (qualifier['qualifierId'] == 82):
-                            xGoalEvent['shotType'] = 12
+                            # If the qualifierId is 322 (store the xGOT value of the shot)
+                            elif (qualifier['qualifierId'] == 322):
+                                # Get the xGOT value of the shot
+                                homeEachXGOT = float(qualifier['value'])
+                                awayEachXGOT = 0
+                                
+                                xGoalEvent['homeXGOT'] = homeEachXGOT
+                                xGoalEvent['awayXGOT'] = awayEachXGOT
+
+                            # Check if the shot (on target) is a blocked shot or not
+                            if (qualifier['qualifierId'] == 82):
+                                xGoalEvent['shotType'] = 12
+                                
+                    else:
+                        # Assign the scorer's name to the respective value of the dict
+                        # and leave the away scorer name field blank
+                        xGoalEvent['homeScorerName'] = ""
+                        xGoalEvent['awayScorerName'] = event['playerName'] + ' (OG)'
+                        xGoalEvent['shotType'] = 26
+                        
+                        # Go through the qualifiers of the shot
+                        for qualifier in event['qualifier']:
+                            # If the qualifierId is 321 (store the xG value of the shot)
+                            if (qualifier['qualifierId'] == 321):
+                                # Get the xG value of the shot
+                                homeEachXGoal = 0
+                                awayEachXGoal = 0
+                                
+                                xGoalEvent['homeEachXGoal'] = homeEachXGoal
+                                xGoalEvent['awayEachXGoal'] = awayEachXGoal
+
+                            # If the qualifierId is 322 (store the xGOT value of the shot)
+                            elif (qualifier['qualifierId'] == 322):
+                                # Get the xGOT value of the shot
+                                homeEachXGOT = 0
+                                awayEachXGOT = 0
+                                
+                                xGoalEvent['homeXGOT'] = homeEachXGOT
+                                xGoalEvent['awayXGOT'] = awayEachXGOT
 
                 else:
 
                     # Get the typeId of the shot
                     xGoalEvent['shotType'] = event['typeId']
-                    # Get the x coordinate of the shot
-                    xGoalEvent['x'] = event['x']
-                    # Get the y coordinate of the shot
-                    xGoalEvent['y'] = event['y']
-                    # Assign the scorer's name to the respective value of the dict
-                    # and leave the home scorer name field blank
-                    xGoalEvent['homeScorerName'] = ""
-                    xGoalEvent['awayScorerName'] = event['playerName']
-
-                    # Go through the qualifiers of the shot
+                    
+                    # Check if the scored goal is an own goal or not
                     for qualifier in event['qualifier']:
-                        # If the qualifierId is 321 (store the xG value of the shot)
-                        if (qualifier['qualifierId'] == 321):
-                            # Get the xG value of the shot
-                            xGoalEvent['homeEachXGoal'] = 0
-                            xGoalEvent['awayEachXGoal'] = float(
-                                qualifier['value'])
-                            # Add the xG value of the current shot to the total xG value of the away team
-                            awayXGoal += float(qualifier['value'])
+                        if (qualifier['qualifierId'] == 28):
+                            isqualifier = True
+                            break
 
-                        # If the qualifierId is 322 (store the xGOT value of the shot)
-                        elif (qualifier['qualifierId'] == 322):
-                            xGoalEvent['homeXGOT'] = 0
-                            # Get the xGOT value of the shot
-                            xGoalEvent['awayXGOT'] = float(qualifier['value'])
+                    if (isqualifier == False):
+                        
+                        # Assign the scorer's name to the respective value of the dict
+                        # and leave the away scorer name field blank
+                        if (xGoalEvent['shotType'] == 16):
+                            xGoalEvent['homeScorerName'] = ""
+                            xGoalEvent['awayScorerName'] = event['playerName']
+                        else:
+                            xGoalEvent['homeScorerName'] = ""
+                            xGoalEvent['awayScorerName'] = ""
+                        
+                        # Go through the qualifiers of the shot
+                        for qualifier in event['qualifier']:
+                            # If the qualifierId is 321 (store the xG value of the shot)
+                            if (qualifier['qualifierId'] == 321):
+                                # Get the xG value of the shot
+                                homeEachXGoal = 0
+                                awayEachXGoal = float(qualifier['value'])
+                                
+                                xGoalEvent['homeEachXGoal'] = homeEachXGoal
+                                xGoalEvent['awayEachXGoal'] = awayEachXGoal
+                                # Add the xG value of the current shot to the total xG value of the home team
+                                awayXGoal += float(qualifier['value'])
+                                xGoalEvent['awayXGoal'] = awayXGoal
 
-                        # Check if the shot (on target) is a blocked shot or not
-                        if (qualifier['qualifierId'] == 82):
-                            xGoalEvent['shotType'] = 12
+                            # If the qualifierId is 322 (store the xGOT value of the shot)
+                            elif (qualifier['qualifierId'] == 322):
+                                # Get the xGOT value of the shot
+                                homeEachXGOT = 0
+                                awayEachXGOT = float(qualifier['value'])
+                                
+                                xGoalEvent['homeXGOT'] = homeEachXGOT
+                                xGoalEvent['awayXGOT'] = awayEachXGOT
+
+                            # Check if the shot (on target) is a blocked shot or not
+                            if (qualifier['qualifierId'] == 82):
+                                xGoalEvent['shotType'] = 12               
+                    else:
+                        
+                        # Assign the scorer's name to the respective value of the dict
+                        # and leave the away scorer name field blank
+                        xGoalEvent['homeScorerName'] = event['playerName'] + ' (OG)'
+                        xGoalEvent['awayScorerName'] = ""
+                        xGoalEvent['shotType'] = 26
+                        
+                        # Go through the qualifiers of the shot
+                        for qualifier in event['qualifier']:
+                            # If the qualifierId is 321 (store the xG value of the shot)
+                            if (qualifier['qualifierId'] == 321):
+                                # Get the xG value of the shot
+                                homeEachXGoal = 0
+                                awayEachXGoal = 0
+                                
+                                xGoalEvent['homeEachXGoal'] = homeEachXGoal
+                                xGoalEvent['awayEachXGoal'] = awayEachXGoal
+
+                            # If the qualifierId is 322 (store the xGOT value of the shot)
+                            elif (qualifier['qualifierId'] == 322):
+                                # Get the xGOT value of the shot
+                                homeEachXGOT = 0
+                                awayEachXGOT = 0
+                                
+                                xGoalEvent['homeXGOT'] = homeEachXGOT
+                                xGoalEvent['awayXGOT'] = awayEachXGOT
 
                 # Assign the total xG of both teams after this event
                 # to the corresponding columns of the dataset.
