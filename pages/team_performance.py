@@ -147,13 +147,7 @@ def app():
             homeTeamCode = nplqFixtures["Home team code"][i]
             awayTeamCode = nplqFixtures["Away team code"][i]
 
-            if (nplqFixtures["Round"][i] != "SF") or (nplqFixtures["Round"][i] != "GF"):
-
-                xGoalFile = homeTeamCode + "_" + awayTeamCode + "_xgoal_stats.json"
-                statsFile = homeTeamCode + "_" + awayTeamCode + "_stats.json"
-                eventsFile = homeTeamCode + "_" + awayTeamCode + "_events.json"
-            
-            elif (nplqFixtures["Round"][i] == "SF"):
+            if (nplqFixtures["Round"][i] == "SF"):
 
                 xGoalFile = homeTeamCode + "_" + awayTeamCode + "_SF_xgoal_stats.json"
                 statsFile = homeTeamCode + "_" + awayTeamCode + "_SF_stats.json"
@@ -164,6 +158,14 @@ def app():
                 xGoalFile = homeTeamCode + "_" + awayTeamCode + "_GF_xgoal_stats.json"
                 statsFile = homeTeamCode + "_" + awayTeamCode + "_GF_stats.json"
                 eventsFile = homeTeamCode + "_" + awayTeamCode + "_GF_events.json"
+
+            else:
+
+                xGoalFile = homeTeamCode + "_" + awayTeamCode + "_xgoal_stats.json"
+                statsFile = homeTeamCode + "_" + awayTeamCode + "_stats.json"
+                eventsFile = homeTeamCode + "_" + awayTeamCode + "_events.json"
+
+            st.markdown(xGoalFile)
             
             if (homeTeamCode == "BCT") or (awayTeamCode == "BCT"):
 

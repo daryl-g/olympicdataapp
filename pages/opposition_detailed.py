@@ -84,26 +84,26 @@ def app():
                     home_team = fixtures['Home team code'][i]
                     away_team = oppositionCode
 
-                if (fixtures["Round"][i] != "SF") or (fixtures["Round"][i] != "GF"):
-
-                    xgoalFile = home_team + '_' + away_team + '_xgoal_stats.json'
-                    statsFile = home_team + '_' + away_team + '_stats.json'
-                    eventsFile = home_team + '_' + away_team + '_events.json'
-                    passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
-
-                elif (fixtures["Round"][i] == "SF"):
+                if ("SF" in availableMatch):
 
                     xgoalFile = home_team + '_' + away_team + '_SF_xgoal_stats.json'
                     statsFile = home_team + '_' + away_team + '_SF_stats.json'
                     eventsFile = home_team + '_' + away_team + '_SF_events.json'
                     passNetworkFile = home_team + '_' + away_team + '_SF_pass_matrix.json'
 
-                elif (fixtures["Round"][i] == "GF"):
+                elif ("GF" in availableMatch):
 
                     xgoalFile = home_team + '_' + away_team + '_GF_xgoal_stats.json'
                     statsFile = home_team + '_' + away_team + '_GF_stats.json'
                     eventsFile = home_team + '_' + away_team + '_GF_events.json'
                     passNetworkFile = home_team + '_' + away_team + '_GF_pass_matrix.json'
+
+                else:
+
+                    xgoalFile = home_team + '_' + away_team + '_xgoal_stats.json'
+                    statsFile = home_team + '_' + away_team + '_stats.json'
+                    eventsFile = home_team + '_' + away_team + '_events.json'
+                    passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
 
                 xgoalFilesList.append(xgoalFile)
                 statsFilesList.append(statsFile)
