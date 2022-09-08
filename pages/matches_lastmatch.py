@@ -128,9 +128,24 @@ def app():
             home_team = 'SCW'
 
     directory = 'Opta stats/2022 data/'
-    xgoalFile = home_team + '_' + away_team + '_xgoal_stats.json'
-    passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
-    eventsFile = home_team + '_' + away_team + '_events.json'
+
+    if (fixtures["Round"][i] != "SF") or (fixtures["Round"][i] != "GF"):
+
+        xgoalFile = home_team + '_' + away_team + '_xgoal_stats.json'
+        passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
+        eventsFile = home_team + '_' + away_team + '_events.json'
+
+    elif (fixtures["Round"][i] == "SF"):
+
+        xgoalFile = home_team + '_' + away_team + '_SF_xgoal_stats.json'
+        passNetworkFile = home_team + '_' + away_team + '_SF_pass_matrix.json'
+        eventsFile = home_team + '_' + away_team + '_SF_events.json'
+
+    elif (fixtures["Round"][i] == "GF"):
+
+        xgoalFile = home_team + '_' + away_team + '_GF_xgoal_stats.json'
+        passNetworkFile = home_team + '_' + away_team + '_GF_pass_matrix.json'
+        eventsFile = home_team + '_' + away_team + '_GF_events.json'
 
     # Import the fonts from the same folder as this code
     robotoRegular = fm.FontProperties(fname='./Roboto-Regular_0.ttf')
