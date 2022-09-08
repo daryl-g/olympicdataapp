@@ -129,7 +129,7 @@ def app():
 
     directory = 'Opta stats/2022 data/'
 
-    if (fixtures["Round"][i] != "SF") or (fixtures["Round"][i] != "GF"):
+    if ( ('SF' not in matchOption) and (fixtures["Round"][i] != "SF") ) or ( ('GF' not in matchOption) and (fixtures["Round"][i] != "GF") ):
 
         xgoalFile = home_team + '_' + away_team + '_xgoal_stats.json'
         passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
