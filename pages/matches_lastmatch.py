@@ -147,6 +147,8 @@ def app():
         passNetworkFile = home_team + '_' + away_team + '_GF_pass_matrix.json'
         eventsFile = home_team + '_' + away_team + '_GF_events.json'
 
+    st.markdown(xgoalFile)
+
     # Import the fonts from the same folder as this code
     robotoRegular = fm.FontProperties(fname='./Roboto-Regular_0.ttf')
     robotoBold = fm.FontProperties(fname='./Roboto-Bold_0.ttf')
