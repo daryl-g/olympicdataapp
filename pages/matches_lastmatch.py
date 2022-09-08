@@ -129,13 +129,13 @@ def app():
 
     directory = 'Opta stats/2022 data/'
 
-    if ('SF' in matchOption) and (fixtures["Round"][i] == "SF"):
+    if ('SF' in matchOption) and (str(fixtures["Round"][i]) == "SF"):
 
         xgoalFile = home_team + '_' + away_team + '_SF_xgoal_stats.json'
         passNetworkFile = home_team + '_' + away_team + '_SF_pass_matrix.json'
         eventsFile = home_team + '_' + away_team + '_SF_events.json'
 
-    elif ('GF' in matchOption) and (fixtures["Round"][i] == "GF"):
+    elif ('GF' in matchOption) and (str(fixtures["Round"][i]) == "GF"):
 
         xgoalFile = home_team + '_' + away_team + '_GF_xgoal_stats.json'
         passNetworkFile = home_team + '_' + away_team + '_GF_pass_matrix.json'
