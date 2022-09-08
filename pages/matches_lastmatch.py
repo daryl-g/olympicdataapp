@@ -129,13 +129,7 @@ def app():
 
     directory = 'Opta stats/2022 data/'
 
-    if ( ('SF' not in matchOption) and (fixtures["Round"][i] != "SF") ) or ( ('GF' not in matchOption) and (fixtures["Round"][i] != "GF") ):
-
-        xgoalFile = home_team + '_' + away_team + '_xgoal_stats.json'
-        passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
-        eventsFile = home_team + '_' + away_team + '_events.json'
-
-    elif ('SF' in matchOption) and (fixtures["Round"][i] == "SF"):
+    if ('SF' in matchOption) and (fixtures["Round"][i] == "SF"):
 
         xgoalFile = home_team + '_' + away_team + '_SF_xgoal_stats.json'
         passNetworkFile = home_team + '_' + away_team + '_SF_pass_matrix.json'
@@ -146,6 +140,12 @@ def app():
         xgoalFile = home_team + '_' + away_team + '_GF_xgoal_stats.json'
         passNetworkFile = home_team + '_' + away_team + '_GF_pass_matrix.json'
         eventsFile = home_team + '_' + away_team + '_GF_events.json'
+
+    else:
+
+        xgoalFile = home_team + '_' + away_team + '_xgoal_stats.json'
+        passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
+        eventsFile = home_team + '_' + away_team + '_events.json'
 
     st.markdown(xgoalFile)
 
