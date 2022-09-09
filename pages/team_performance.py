@@ -164,8 +164,6 @@ def app():
                 xGoalFile = homeTeamCode + "_" + awayTeamCode + "_xgoal_stats.json"
                 statsFile = homeTeamCode + "_" + awayTeamCode + "_stats.json"
                 eventsFile = homeTeamCode + "_" + awayTeamCode + "_events.json"
-
-            st.markdown(xGoalFile)
             
             if (homeTeamCode == "BCT") or (awayTeamCode == "BCT"):
 
