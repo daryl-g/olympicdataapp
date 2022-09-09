@@ -105,8 +105,6 @@ def app():
                     eventsFile = home_team + '_' + away_team + '_events.json'
                     passNetworkFile = home_team + '_' + away_team + '_pass_matrix.json'
 
-                st.markdown(xgoalFile)
-
                 xgoalFilesList.append(xgoalFile)
                 statsFilesList.append(statsFile)
                 eventsFilesList.append(eventsFile)
