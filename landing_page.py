@@ -33,4 +33,7 @@ st.markdown(
     "-Choose **Player** to see data and visualisations of Olympic's players and players of other teams.")
 st.markdown("-Choose **Opposition** to see an overview and a detailed view of Olympic's upcoming opposition through data and visualisations.")
 
+st.markdown("### Missing matches:")
+st.markdown("-Round 6: Peninsula Power 1-3 Olympic")
+
 # app.run()
